@@ -10,68 +10,64 @@ function ContactPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Contact"
       />
-      <section>
-        <form className="mx-auto md:w-1/2">
-          <p className="mb-8 leading-loose">
-            Here is an example of a form built using the official Tailwind CSS
-            Custom Forms plugin.{` `}
-            <a
-              className="font-bold text-gray-700 no-underline"
-              href="https://github.com/tailwindcss/custom-forms"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Read the docs
-            </a>
-            .
+      <section className='flex flex-row mx-24'>
+        <form className="flex flex-col w-1/2 h-14 ml-16">
+          <p className='mb-8 w-1/2 leading-loose text-3xl font-bold'>
+            KONTAKTA OSS!
           </p>
 
           <label
-            className="block mb-2 text-xs font-bold uppercase"
-            htmlFor="first-name"
+            className="block w-1/2 mb-2 text-xs font-bold uppercase"
+            htmlFor="full-name"
           >
-            First Name
+            Namn och efternamn
           </label>
 
           <input
-            className="w-full mb-6 form-input"
-            id="first-name"
-            placeholder="Bill"
+            className="w-1/2 mb-6 form-input"
+            id="full-name"
+            placeholder="Oscar"
             type="text"
           />
 
           <label
-            className="block mb-2 text-xs font-bold uppercase"
-            htmlFor="last-name"
+            className="block w-1/2 mb-2 text-xs font-bold uppercase"
+            htmlFor="email"
           >
-            Last Name
+            email
           </label>
 
           <input
-            className="w-full mb-6 form-input"
+            className="w-1/2 mb-6 form-input"
             id="last-name"
-            placeholder="Murray"
+            placeholder="oscar@hotmail.com"
             type="text"
           />
 
           <label
-            className="block mb-2 text-xs font-bold uppercase"
-            htmlFor="message"
+            className="block w-1/2 mb-2 text-xs font-bold uppercase"
+            htmlFor="meddelande"
           >
-            Message
+            meddelande
           </label>
 
           <textarea
-            className="w-full mb-6 form-textarea"
-            id="message"
-            placeholder="Say something..."
+            className="w-2/3 mb-6 form-textarea"
+            id="meddelande"
+            placeholder="Hej jag undrar om..."
             rows="8"
           />
 
-          <button className="px-4 py-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600">
-            Submit
+          <button className="w-48 px-4 py-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600">
+            Skicka
           </button>
         </form>
+        
+        <div className='w-1/2 h-14'>
+           
+          <h1 className='flex justify-center text-3xl font-bold mb-8 mr-24 leading-loose'>KONTAKT INFORMATION</h1>
+          
+        </div>
       </section>
     </Layout>
   );
