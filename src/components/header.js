@@ -14,7 +14,7 @@ function Header() {
   `);
 
   return (
-    <header className="bg-teal-700">
+    <header className="bg-blue-700">
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
@@ -55,11 +55,11 @@ function Header() {
           {[
             {
               route: `/about`,
-              title: `About`,
+              title: `Om Oss`,
             },
             {
               route: `/contact`,
-              title: `Contact`,
+              title: `FAQ`,
             },
           ].map((link) => (
             <Link
