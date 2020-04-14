@@ -10,8 +10,8 @@ function ContactPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Contact"
       />
-      <section className='flex flex-row mx-24 bg-pink-200 shadow-lg rounded-lg'>
-        <form className="flex flex-col w-1/2 h-14 ml-16">
+      <section className='flex flex-row mx-24'>
+        <form className="flex flex-col w-1/2 h-14 ml-32">
           <p className='mb-8 w-1/2 leading-loose text-3xl font-bold'>
             KONTAKTA OSS!
           </p>
