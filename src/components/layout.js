@@ -5,12 +5,14 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900">
+    <div className="flex flex-col min-h-screen font-sans text-gray-900 bg-pink-200">
       <Header />
 
-      <main className="flex-1 w-full px-4 py-8 mx-auto md:px-8 md:py-16">
+      <main className="flex-1 w-full h-64 mx-auto">
         {children}
       </main>
+
+
 
       <footer className="border border-black">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
@@ -22,7 +24,7 @@ function Layout({ children }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Taylor Bryant
+              Letsgig
             </a>
           </p>
 
