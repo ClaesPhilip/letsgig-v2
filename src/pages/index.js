@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import MainPic from "../images/mainPic.jpeg";
+// import MainPic from "../images/mainPic.jpeg";
 
 function IndexPage() {
   return (
@@ -12,13 +12,13 @@ function IndexPage() {
         title="Home"
       />
 
-      <section className="">
+      {/* <section className="">
         <img
           alt="picture"
           className=""
           src={MainPic}
         />
-      </section>
+      </section> */}
     </Layout>
   );
 }
