@@ -5,54 +5,54 @@ function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="">
-      <div className="flex flex-wrap justify-between p-4 mx-auto md:p-8 overflow-x-hidden">
-        <Link to="/">
-          <h1 className="flex items-center text-white no-underline">
-            letsgig
+    <header className="fixed flex w-full bg-transparent border-b items-center justify-between flex-wrap p-5 m-auto top-0 animated">
+      {/* < div className="flex flex-wrap justify-between p-4 mx-auto md:p-8 bg-pink-300 md:flex-row" > */}
+      <Link to="/">
+        <h1 className="flex items-center text-white no-underline">
+          letsgig
           </h1>
-        </Link>
+      </Link>
 
-        <button
-          className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
-          onClick={() => toggleExpansion(!isExpanded)}
+      <button
+        className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
+        onClick={() => toggleExpansion(!isExpanded)}
+      >
+        <svg
+          className="w-3 h-3 fill-current"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            className="w-3 h-3 fill-current"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
 
-        <nav
-          className={`${
-            isExpanded ? `block` : `hidden`
+      <nav
+        className={`${
+          isExpanded ? `block` : `hidden`
           } md:block md:flex md:items-center w-full md:w-auto`}
-        >
-          {[
-            {
-              route: `/about`,
-              title: `Om Oss`,
-            },
-            {
-              route: `/contact`,
-              title: `FAQ`,
-            },
-          ].map((link) => (
-            <Link
-              className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
-              key={link.title}
-              to={link.route}
-            >
-              {link.title}
-            </Link>
-          ))}
-        </nav>
-      </div>
-    </header>
+      >
+        {[
+          {
+            route: `/about`,
+            title: `Om Oss`,
+          },
+          {
+            route: `/contact`,
+            title: `FAQ`,
+          },
+        ].map((link) => (
+          <Link
+            className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
+            key={link.title}
+            to={link.route}
+          >
+            {link.title}
+          </Link>
+        ))}
+      </nav>
+      {/*       </div > */}
+    </header >
   );
 }
 
