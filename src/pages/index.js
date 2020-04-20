@@ -16,8 +16,13 @@ function IndexPage() {
         backgroundImage: `url(${Bg_Image})`
       }} >
 
-        <p className='flex text-pink-600 justify-end mr-64 text-2xl'>SENASTE GIGGEN</p>
+      <div className='pt-24 flex'>
 
+            <div className="w-3/4 h-12"></div>
+
+            <p className='w-1/4 text-pink-700 text-4xl font-semibold items-right '>Senaste giggen: <br></br> UX/UI Designer</p>
+
+      </div>
       </section>
     </Layout>
   );
