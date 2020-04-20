@@ -4,5 +4,11 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
+.bg_image {
+    width: 1920px;
+    height: 800px;
+    object-fit: cover;
+}
+
 
 
