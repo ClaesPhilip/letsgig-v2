@@ -12,7 +12,7 @@ function ContactPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Contact"
       />
-      <section className='flex flex-col items-center md:flex-row md:w-full pt-16' style={{
+      <section className='flex flex-col items-center md:flex-row md:w-full pt-16 ' style={{
         backgroundImage: `url(${Bg_image})`
       }} >
         <form className="md:w-2/3 md:mr-8 xl:w-1/2 lg:ml-16 sm:w-full flex flex-col sm:ml-16 xs:w-64 sm:w-full">
