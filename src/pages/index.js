@@ -12,12 +12,12 @@ function IndexPage() {
         title="Home"
       />
 
-      <section className="">
-        <img
-          alt="picture"
-          className="bg_image"
-          src={Bg_Image}
-        />
+      <section className="landingSection" style={{
+        backgroundImage: `url(${Bg_Image})`
+      }} >
+
+        <p className='flex text-pink-600 justify-end mr-64 text-2xl'>SENASTE GIGGEN</p>
+
       </section>
     </Layout>
   );
