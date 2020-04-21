@@ -1,8 +1,11 @@
 import React from "react";
+// import {Link} from 'gatsby';
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Bg_Image from "../images/bg-Image.jpg";
+import AppStore from '../images/appStore.jpg';
+import GooglePlay from '../images/googlePlay.png';
 
 function IndexPage() {
   return (
@@ -24,6 +27,20 @@ function IndexPage() {
 
       </div>
       </section>
+    <div className='w-full h-40'> 
+      <div className='w-1/3'>
+          <p className='flex justify-center'>Ladda ned appen!</p>
+          
+        <div className='flex flex-row justify-center'>
+          <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
+            <img alt="app store" src={AppStore} width="200" height="100"></img>
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
+            <img alt="google play" src={GooglePlay} width="200" height="100"></img>
+          </a>
+        </div>
+      </div>
+    </div>
     </Layout>
   );
 }
