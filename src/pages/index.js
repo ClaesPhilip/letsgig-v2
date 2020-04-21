@@ -18,9 +18,9 @@ function IndexPage() {
 
       <div className='pt-24 flex'>
 
-            <div className="w-3/4 h-12"></div>
+            <div className="lg:w-3/4 sm:w-3/5 h-12 "></div>
 
-            <p className='w-1/4 text-pink-700 text-4xl font-semibold items-right '>Senaste giggen: <br></br> UX/UI Designer</p>
+            <p className='lg:w-1/4 sm:w-2/5 text-pink-700 text-4xl font-semibold items-right flex-no-wrap mobile:invisible md:visible'>Senaste giggen: <br></br> UX/UI Designer</p>
 
       </div>
       </section>
