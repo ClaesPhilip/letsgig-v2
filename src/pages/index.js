@@ -34,15 +34,38 @@ function IndexPage() {
       <span>&nbsp;</span>
       <span>&nbsp;</span>
     </span>
-    
-      <div className='w-full pt-24'>
-        <h1 className='text-white'>Hitta Gig</h1>
-          <input className="w-1/5 h-12" type="text" placeholder="Search" />
-            <button className='w-1/12 h-12 text-white bg-pink-600 rounded-lg'>Search</button>
+
+    <h1 className='flex justify-end text-white mb-2 w-1/3 pr-20 text-xl'>Hitta Gig:</h1>
+
+      <div className='flex justify-center w-full h-24'>
+          <input className="w-1/5 h-12 rounded-full mr-6" type="text" placeholder="Stad" />
+          <input className="w-1/5 h-12 rounded-full mr-6" type="text" placeholder="Kategori" /> 
+            <button className='w-1/12 h-12 text-white bg-pink-600 rounded-full '>Search</button>
       </div>
 
       </section>
-    <div className='w-full h-40'> 
+    <div className='w-full h-40 flex flex-row pt-2'> 
+      <div className='w-1/3'>
+          <p className='flex justify-center'>Ladda ned appen!</p>
+          
+        <div className='flex flex-row justify-center'>
+          <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
+            <img alt="app store" src={AppStore} width="200" height="100"></img>
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
+            <img alt="google play" src={GooglePlay} width="200" height="100"></img>
+          </a>
+        </div>
+      </div>
+
+      <div className='w-1/3'>
+          <p className='flex justify-center pb-12'>Kom Igång</p>
+          
+        <div className='flex flex-row justify-center'>
+          <button className='w-10 h-10 bg-pink-600 text-3xl text-white rounded-full rotate-180'>^</button>
+        </div>
+      </div>
+
       <div className='w-1/3'>
           <p className='flex justify-center'>Ladda ned appen!</p>
           
