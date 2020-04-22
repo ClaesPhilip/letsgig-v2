@@ -6,6 +6,7 @@ import SEO from "../components/seo";
 import Bg_Image from "../images/bg-Image.jpg";
 import AppStore from '../images/appStore.jpg';
 import GooglePlay from '../images/googlePlay.png';
+import Mecenat from '../images/mecenat.png';
 
 function IndexPage() {
   return (
@@ -59,22 +60,17 @@ function IndexPage() {
       </div>
 
       <div className='w-1/3'>
-          <p className='flex justify-center pb-12'>Kom Igång</p>
+          <p className='flex justify-center pb-6'>Kom Igång</p>
           
         <div className='flex flex-row justify-center'>
-          <button className='w-10 h-10 bg-pink-600 text-3xl text-white rounded-full rotate-180'>^</button>
+          <button className='w-12 h-12 bg-pink-600 text-3xl text-white rounded-full rotate-180'>^</button>
         </div>
       </div>
 
-      <div className='w-1/3'>
-          <p className='flex justify-center'>Ladda ned appen!</p>
-          
+      <div className='w-1/3 pt-10'>
         <div className='flex flex-row justify-center'>
-          <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-            <img alt="app store" src={AppStore} width="200" height="100"></img>
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
-            <img alt="google play" src={GooglePlay} width="200" height="100"></img>
+          <a href="https://mecenat.com/se">
+            <img alt="mecenat" src={Mecenat} width="300" height="100"></img>
           </a>
         </div>
       </div>
