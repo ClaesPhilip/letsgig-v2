@@ -1,6 +1,8 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
 
+import Letsgig from '../images/letsgigLogon.png';
+
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
 
@@ -9,8 +11,8 @@ function Header() {
       {/* < div className="flex flex-wrap justify-between p-4 mx-auto md:p-8 bg-pink-300 md:flex-row" > */}
       <Link to="/">
         <h1 className="flex items-center text-white no-underline">
-          letsgig
-          </h1>
+          <img alt="lets gig" src={Letsgig} width="100" height="100"></img>
+        </h1>
       </Link>
 
       <button
