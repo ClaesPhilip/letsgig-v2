@@ -3,10 +3,16 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+
+// IMAGES
 import Bg_Image from "../images/bg-Image.jpg";
 import AppStore from '../images/appStore.jpg';
 import GooglePlay from '../images/googlePlay.png';
 import Mecenat from '../images/mecenat.png';
+
+// ICONS
+import { MdExpandMore } from "react-icons/md";
+// import { BsSearch } from "react-icons/bs";
 
 function IndexPage() {
   return (
@@ -39,13 +45,13 @@ function IndexPage() {
     <h1 className='flex justify-end text-white mb-2 w-1/3 pr-20 text-xl'>Hitta Gig:</h1>
 
       <div className='flex justify-center w-full h-24'>
-          <input className="w-1/5 h-12 rounded-full mr-6" type="text" placeholder="Stad" />
-          <input className="w-1/5 h-12 rounded-full mr-6" type="text" placeholder="Kategori" /> 
+          <input className="w-1/5 h-12 rounded-full mr-6 pl-4" type="text" placeholder="Stad" />
+          <input className="w-1/5 h-12 rounded-full mr-6 pl-4" type="text" placeholder="Kategori"/> 
             <button className='w-1/12 h-12 text-white bg-pink-600 rounded-full '>Search</button>
       </div>
 
       </section>
-    <div className='w-full h-40 flex flex-row pt-2'> 
+    <div className='w-full h-40 flex flex-row pt-4'> 
       <div className='w-1/3'>
           <p className='flex justify-center'>Ladda ned appen!</p>
           
@@ -63,7 +69,8 @@ function IndexPage() {
           <p className='flex justify-center pb-6'>Kom Igång</p>
           
         <div className='flex flex-row justify-center'>
-          <button className='w-12 h-12 bg-pink-600 text-3xl text-white rounded-full rotate-180'>^</button>
+          <button className='w-12 h-12 bg-pink-600 text-3xl text-white rounded-full'><MdExpandMore className='w-full text-4xl'/></button>
+          
         </div>
       </div>
 
