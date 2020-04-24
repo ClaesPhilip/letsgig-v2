@@ -1,14 +1,15 @@
 import React from "react";
-// import {Link} from 'gatsby';
+
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 // IMAGES
-import Bg_Image from "../images/bg-Image.jpg";
+// import Bg_Image from "../images/bg-Image.jpg";
 import AppStore from '../images/appStore.jpg';
 import GooglePlay from '../images/googlePlay.png';
 import Mecenat from '../images/mecenat.png';
+import MainPic from '../images/mainPic.jpeg';
 
 // ICONS
 import { MdExpandMore } from "react-icons/md";
@@ -23,15 +24,12 @@ function IndexPage() {
       />
 
       <section className="landingSection" style={{
-        backgroundImage: `url(${Bg_Image})`
+        backgroundImage: `url(${MainPic})`
       }} >
 
       <div className='pt-24 flex'>
-
             <div className="lg:w-3/4 sm:w-3/5 h-12 "></div>
-
-            <p className='lg:w-1/4 sm:w-2/5 text-pink-700 text-4xl font-semibold items-right flex-no-wrap mobile:invisible lg:visible'>Senaste giggen: <br></br> UX/UI Designer</p>
-
+            <p className='lg:w-1/4 sm:w-2/5 text-pink-700 text-4xl font-semibold items-right flex-no-wrap mobile:invisible lg:visible'>Senaste giggen: <br></br> <p className='animate-text'>UX/UI Designer</p></p>
       </div>
 
     <span className='flex flex-col'>
@@ -68,8 +66,8 @@ function IndexPage() {
       <div className='w-1/3'>
           <p className='flex justify-center pb-6'>Kom Igång</p>
           
-        <div className='flex flex-row justify-center'>
-          <button className='w-12 h-12 bg-pink-600 text-3xl text-white rounded-full'><MdExpandMore className='w-full text-4xl'/></button>
+        <div className='flex flex-row justify-center border-none'>
+          <button className='w-12 h-12 bg-pink-600 text-3xl text-white rounded-full border-none'><MdExpandMore className='w-full text-4xl'/></button>
           
         </div>
       </div>
