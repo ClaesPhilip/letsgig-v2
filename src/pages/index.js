@@ -15,6 +15,10 @@ import MainPic from '../images/mainPic.jpeg';
 import { MdExpandMore } from "react-icons/md";
 // import { BsSearch } from "react-icons/bs";
 
+// Components
+import FlipCards from "../components/flipCards";
+
+
 function IndexPage() {
   return (
     <Layout>
@@ -80,6 +84,7 @@ function IndexPage() {
         </div>
       </div>
     </div>
+    <FlipCards />
     </Layout>
   );
 }
