@@ -7,7 +7,7 @@ function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="relative md:fixed flex w-full bg-transparent items-center justify-between flex-wrap p-5 m-auto top-0 animated">
+    <header className="flex w-full items-center justify-between flex-wrap p-5 m-auto px-16">
       {/* < div className="flex flex-wrap justify-between p-4 mx-auto md:p-8 bg-pink-300 md:flex-row" > */}
       <Link to="/">
         <h1 className="flex items-center text-white no-underline">
