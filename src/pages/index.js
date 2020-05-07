@@ -6,8 +6,8 @@ import SEO from "../components/seo";
 
 // IMAGES
 // import Bg_Image from "../images/bg-Image.jpg";
-import AppStore from '../images/applelogo.png';
-import GooglePlay from '../images/android.png';
+import AppStore from '../images/apple.svg';
+import GooglePlay from '../images/android.svg';
 import MainPic from '../images/header.svg';
 
 // ICONS
