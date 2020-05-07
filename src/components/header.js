@@ -41,7 +41,7 @@ function Header() {
           },
           {
             route: `/contact`,
-            title: `FAQ`,
+            title: `Hjälp`,
           },
           {
             route: `/logIn`,
