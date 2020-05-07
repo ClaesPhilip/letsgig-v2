@@ -49,9 +49,9 @@ function IndexPage() {
         <div className='w-1/3'>
 
 
-          <div className='flex flex-row justify-left'>
+          <div className='flex flex-row justify-left m-8'>
             <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-              <img alt="app store" src={AppStore} width="80" height="100"></img>
+              <img alt="app store" src={AppStore} width="67" height="100" ></img>
             </a>
             <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
               <img alt="google play" src={GooglePlay} width="80" height="100"></img>
