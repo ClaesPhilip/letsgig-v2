@@ -12,15 +12,10 @@
 } */
 
 .landingSection {
-    
     width: 100%;
     max-width: 100vw;
     height: 40vw;
     min-height: 40vw;
-}
-
-.backgroundImage {
-  
 }
 
 @media screen and (max-width: 600px) {
