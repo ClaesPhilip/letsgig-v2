@@ -49,17 +49,36 @@ from, to { border-color: transparent }
 .infoRegister {
   display:flex;
   flex-wrap: wrap;
-  height: 60em;
+  height: 55em;
 }
 .infoBlue {
   width: 50%;
   margin-left: auto;
-  background-color: #bee3f8;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #E4ECFF;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
+
+.regButton {
+  display: flex;
+  justify-items: center;
+  background-color: #E12E8B;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
 .infoPink {
   width: 50%;
   margin-right: auto;
-  background-color: #fbb6ce;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* FLIP CARDS */
