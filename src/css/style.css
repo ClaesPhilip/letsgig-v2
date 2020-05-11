@@ -59,19 +59,19 @@ from, to { border-color: transparent }
 }
 
 .regButton {
-  display: flex;
-  justify-items: center;
   background-color: #E12E8B;
   border: none;
   font-size: 28px;
   color: #FFFFFF;
-  padding: 20px;
-  width: 200px;
+  padding: 10px;
+  width: 14rem;
+  height: 4rem;
   text-align: center;
   transition-duration: 0.4s;
   text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
+  /* overflow: hidden; */
+  /* cursor: pointer; */
+  border-radius: 25px;
 }
 
 .infoPink {
@@ -79,7 +79,7 @@ from, to { border-color: transparent }
   margin-right: auto;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
-}
+} 
 
 /* FLIP CARDS */
 .flipCards {
