@@ -9,6 +9,10 @@ function InfoRegister() {
   return (
    
       
+
+// TESTA OCH GÖRA HELA INFO REGISTER MED STYLED COMPONENTS
+
+
     
     <div className="infoRegister">
         <div className="infoBlue">
