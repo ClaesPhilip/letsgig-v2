@@ -32,7 +32,7 @@ function OurVision() {
 
         <div className='flex justify-evenly items-center ml-10'>
         <h1 className='justify-center text-3xl'>Studenter först</h1>
-        <h1 className='justify-center text-3xl '>Ansök enkelt</h1>
+        <h1 className='justify-center text-3xl pl-16'>Ansök enkelt</h1>
         <h1 className='justify-center text-3xl '>Letsgig är din möjlighet</h1>
         </div>
 
