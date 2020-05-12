@@ -38,11 +38,12 @@ class SlideShow extends Component {
         <button 
           onClick={() => this.prevProperty()} 
           disabled={property.index === 0}
-        >Prev</button>
+        >Tillbaka</button>
+        
         <button 
           onClick={() => this.nextProperty()} 
           disabled={property.index === data.properties.length-1}
-        >Next</button>
+        >Nästa</button>
         
 
         <div className="page">
