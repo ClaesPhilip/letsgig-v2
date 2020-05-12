@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 const Card = ({property}) => {
     const {index, picture, city, title} = property;
+    // const {index, picture, city, title, bedrooms, bathrooms, carSpaces} = property;
     return (
         <div id={`card-${index}`} className="card">
             <img src={picture} alt={city} />
@@ -10,7 +11,7 @@ const Card = ({property}) => {
                 {/* <span className="index">{index+1}</span> */}
                 <p className="location">
                     {title}<br />
-                    {city}
+                    {'- ' + city}
                 </p>
                 <ul className="features">
                     {/* <li className="icon-bed">{bedrooms} <span>bedrooms</span></li>
