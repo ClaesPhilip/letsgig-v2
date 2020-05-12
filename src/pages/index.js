@@ -18,6 +18,7 @@ import { MdExpandMore } from "react-icons/md";
 // import FlipCards from "../components/flipCards";
 import InfoRegister from "../components/infoRegister";
 import OurVision from '../components/ourVision';
+import SlideShow from '../components/slideShow';
 
 
 function IndexPage() {
@@ -81,6 +82,7 @@ function IndexPage() {
       </div>
       <InfoRegister />
       <OurVision />
+      <SlideShow />
       {/* <FlipCards /> */}
     </Layout>
   );
