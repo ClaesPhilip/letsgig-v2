@@ -15,7 +15,7 @@ import { MdExpandMore } from "react-icons/md";
 // import { BsSearch } from "react-icons/bs";
 
 // Components
-import FlipCards from "../components/flipCards";
+// import FlipCards from "../components/flipCards";
 import InfoRegister from "../components/infoRegister";
 
 
@@ -77,7 +77,7 @@ function IndexPage() {
         </div>
       </div>
       <InfoRegister />
-      <FlipCards />
+      {/* <FlipCards /> */}
     </Layout>
   );
 }
