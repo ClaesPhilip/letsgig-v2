@@ -161,7 +161,14 @@ from, to { border-color: transparent }
   text-align: center;
 }
   
+.phone {
+  margin-top: 150px;
+  padding-left: 100px;
+}
 
+.leftButton {
+  margin-top: 150px; 
+}
 
 
 
