@@ -577,7 +577,7 @@ from, to { border-color: transparent }
     display: block;
     width: 100%;
     height: 264px;
-    outline: 5px solid #61DAFB;
+    /* outline: 5px solid #61DAFB; */
     position: absolute;
     top: 0;
     left: 0; }
