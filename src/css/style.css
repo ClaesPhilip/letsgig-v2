@@ -203,6 +203,10 @@ from, to { border-color: transparent }
 .App-logo {
   height: 80px; }
 
+.App button {
+  margin-left:20px;
+}
+
 /* DEMO STYLES */
 /* .nav {
   padding: 30px 0;
