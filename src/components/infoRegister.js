@@ -34,7 +34,12 @@ function InfoRegister() {
 
 
         <div className="infoPink">
-          
+        <div className='flex flex-col mt-12 lg:px-24 md:px-12 mobile:px-6 '>
+            <h1 className='flex justify-center mb-10 text-4xl font-medium'>Ladda ned appen</h1>
+            <div>
+              <img src=''></img>
+            </div>
+          </div>
         </div>
     </div>
     
