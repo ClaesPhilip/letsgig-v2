@@ -32,7 +32,7 @@ function IndexPage() {
         backgroundImage: `url(${MainPic})`, 
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        marginTop: '20px',
+        backgroundColor: '#fed7e2',
         width: '100%',
         height: 'auto',
       }} >
@@ -52,7 +52,7 @@ function IndexPage() {
         </div> */}
 
       </section>
-      <div className='w-full h-40 flex flex-row pt-4'>
+      <div className='w-full h-40 flex flex-row pt-4 bg-pink-200'>
         <div className='w-1/3'>
 
 
