@@ -34,10 +34,21 @@ function InfoRegister() {
       </div>
 
 
+<<<<<<< HEAD
       <div className="infoPink">
 
         <img src={phone} className='phone'></img>
       </div>
+=======
+        <div className="infoPink">
+        <div className='flex flex-col mt-12 lg:px-24 md:px-12 mobile:px-6 '>
+            <h1 className='flex justify-center mb-10 text-4xl font-medium'>Ladda ned appen</h1>
+            <div>
+              <img src=''></img>
+            </div>
+          </div>
+        </div>
+>>>>>>> e8567ca552a0cf50f042a05412b8b54b34c1c9cd
     </div>
 
   );
