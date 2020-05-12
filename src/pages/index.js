@@ -28,10 +28,10 @@ function IndexPage() {
       />
 
       <section className="landingSection" style={{
-        backgroundImage: `url(${MainPic})`, 
+        backgroundImage: `url(${MainPic})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        marginTop: '20px'
+        marginTop: '10px'
       }} >
 
         <div className='pt-8 flex'>
