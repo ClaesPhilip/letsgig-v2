@@ -264,6 +264,9 @@ from, to { border-color: transparent }
     font-weight: bold; }
   .card .details {
     position: relative; }
+  .card p {
+    
+  }
   .card .features {
     list-style: none;
     padding: 0;
