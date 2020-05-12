@@ -17,6 +17,7 @@ import { MdExpandMore } from "react-icons/md";
 // Components
 // import FlipCards from "../components/flipCards";
 import InfoRegister from "../components/infoRegister";
+import OurVision from '../components/ourVision';
 
 
 function IndexPage() {
@@ -31,7 +32,9 @@ function IndexPage() {
         backgroundImage: `url(${MainPic})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        marginTop: '10px'
+        backgroundColor: '#fed7e2',
+        width: '100%',
+        height: 'auto',
       }} >
 
         <div className='pt-8 flex'>
@@ -49,7 +52,7 @@ function IndexPage() {
         </div> */}
 
       </section>
-      <div className='w-full h-40 flex flex-row pt-4'>
+      <div className='w-full h-40 flex flex-row pt-4 bg-pink-200'>
         <div className='w-1/3'>
 
 
@@ -77,6 +80,7 @@ function IndexPage() {
         </div>
       </div>
       <InfoRegister />
+      <OurVision />
       {/* <FlipCards /> */}
     </Layout>
   );
