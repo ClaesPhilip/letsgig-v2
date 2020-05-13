@@ -7,7 +7,7 @@ function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="relative md:fixed flex w-full bg-transparent items-center justify-between flex-wrap p-5 m-auto top-0 animated">
+    <header className="flex w-full items-center justify-between flex-wrap p-5 m-auto px-16 ">
       {/* < div className="flex flex-wrap justify-between p-4 mx-auto md:p-8 bg-pink-300 md:flex-row" > */}
       <Link to="/">
         <h1 className="flex items-center text-white no-underline">
@@ -41,7 +41,7 @@ function Header() {
           },
           {
             route: `/contact`,
-            title: `FAQ`,
+            title: `Hjälp`,
           },
           {
             route: `/logIn`,
@@ -49,7 +49,7 @@ function Header() {
           },
         ].map((link) => (
           <Link
-            className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
+            className="block mt-4 text-pink-700 font-medium no-underline md:inline-block md:mt-0 md:ml-6"
             key={link.title}
             to={link.route}
           >
