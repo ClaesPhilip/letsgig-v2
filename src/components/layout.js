@@ -14,7 +14,7 @@ function Layout({ children }) {
 
 
 
-      {/* <footer className="border border-black">
+      <footer className="border border-black h-screen">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
           <p className="text-black">
             Created by{` `}
@@ -39,7 +39,7 @@ function Layout({ children }) {
             </a>
           </p>
         </nav>
-      </footer> */}
+      </footer>
     </div>
   );
 }
