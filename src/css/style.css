@@ -104,10 +104,16 @@ from, to { border-color: transparent }
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
-  background: #fdfafc;
+  margin-top:100px;
+  background: white;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  height: 40%; 
+  height: 100vh;
+  margin-right: 150px;
+  margin-left: 150px;
+  box-shadow: 0 0 30px rgb(225, 46, 139);
+   
+  flex-wrap: wrap;
   /* border-top: 1px solid #ec9eb4; */
 }
 
@@ -117,6 +123,7 @@ from, to { border-color: transparent }
   /* top: 0; */
   /* left: 0; */
   width: 20%;
+  min-width: 20rem;
   height: 90%;
   /* margin:30px; */
   margin-left:20px;
@@ -125,6 +132,8 @@ from, to { border-color: transparent }
   transition: all 0.8s ease;
   /* transform: translate(-5%, -5%); */
 }
+
+
 
 /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
 .thecard:hover{
@@ -203,10 +212,13 @@ from, to { border-color: transparent }
   position: relative;
   /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD;  */
   background: white; 
+  height: 30rem;
+  margin-top: 150px;
 }
 
 .App-logo {
-  height: 80px; }
+  height: 80px; 
+}
 
 .App button {
   margin-left:20px;
@@ -247,7 +259,7 @@ from, to { border-color: transparent }
   cursor: pointer;
   background-color: #f3f3f3;
   padding: 10px;
-  max-width: 220px;
+  max-width: 420px;
   text-align: left;
   margin: 0 auto; }
   .card:hover {
@@ -309,7 +321,7 @@ from, to { border-color: transparent }
   
   .cards-slider-wrapper .card {
     flex: 1;
-    min-width: 200px;
+    min-width: 300px;
     opacity: 0.7;
     transform: scale(0.8);
     box-shadow: none;
