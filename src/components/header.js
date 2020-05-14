@@ -7,7 +7,7 @@ function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="flex w-full items-center justify-between flex-wrap p-5 m-auto px-16">
+    <header className="flex w-full items-center justify-between flex-wrap p-5 m-auto lg:px-16">
       {/* < div className="flex flex-wrap justify-between p-4 mx-auto md:p-8 bg-pink-300 md:flex-row" > */}
       <Link to="/">
         <h1 className="flex items-center text-white no-underline">
@@ -20,7 +20,7 @@ function Header() {
         onClick={() => toggleExpansion(!isExpanded)}
       >
         <svg
-          className="w-3 h-3 fill-current"
+          className="w-3 h-3 fill-current bg-pink-600"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
