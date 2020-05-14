@@ -19,6 +19,7 @@ import FlipCards from "../components/flipCards";
 import InfoRegister from "../components/infoRegister";
 // import OurVision from '../components/ourVision';
 import SlideShow from '../components/slideShow';
+import Footer from '../components/footer';
 
 
 function IndexPage() {
@@ -84,6 +85,7 @@ function IndexPage() {
       {/* <OurVision /> */}
       <FlipCards />
       <SlideShow />
+      <Footer />
     </Layout>
   );
 }
