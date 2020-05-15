@@ -56,8 +56,9 @@ from, to { border-color: transparent }
 .infoBlue {
   width: 50%;
   margin-left: auto;
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #E4ECFF;
-  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  background: #fdfafc;
+  /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD; */
+  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .regButton {
@@ -79,8 +80,8 @@ from, to { border-color: transparent }
 .infoPink {
   width: 50%;
   margin-right: auto;
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD;
-  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  background: #fdfafc;
+  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
 } 
 
 
@@ -100,12 +101,20 @@ from, to { border-color: transparent }
 /* FLIP CARDS */
 .flipCards {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   flex-direction: row;
-  background-color: #fed7e2;
+  margin-top:100px;
+  background: white;
   padding-top: 5rem;
-  height: 70%; 
-  border-top: 1px solid #ec9eb4;
+  padding-bottom: 5rem;
+  height: 100vh;
+  margin-right: 150px;
+  margin-left: 150px;
+  box-shadow: 0 0 30px rgb(225, 46, 139);
+   
+  flex-wrap: wrap;
+  /* border-top: 1px solid #ec9eb4; */
 }
 
 /* THE CARD HOLDS THE FRONT AND BACK FACES */
@@ -114,14 +123,17 @@ from, to { border-color: transparent }
   /* top: 0; */
   /* left: 0; */
   width: 20%;
+  min-width: 20rem;
   height: 90%;
-  margin:30px;
+  /* margin:30px; */
   margin-left:20px;
   border-radius: 10px;
   transform-style: preserve-3d;
   transition: all 0.8s ease;
   /* transform: translate(-5%, -5%); */
 }
+
+
 
 /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
 .thecard:hover{
@@ -139,7 +151,8 @@ from, to { border-color: transparent }
   border-radius: 10px;
   backface-visibility: hidden;
   overflow: hidden;
-  background: rgb(228, 50, 80);
+  background: white;
+  box-shadow: 2px 2px 2px 2px rgb(225, 46, 139) ;
   color: #000;
 }
 
@@ -153,7 +166,7 @@ from, to { border-color: transparent }
   border-radius: 10px;
   backface-visibility: hidden;
   overflow: hidden;
-  background: #fafafa;
+  background: white;
   color: #333;
   text-align: center;
   transform: rotateY(180deg);
@@ -197,11 +210,15 @@ from, to { border-color: transparent }
 .App {
   text-align: center;
   position: relative;
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD; 
+  /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD;  */
+  background: white; 
+  height: 30rem;
+  margin-top: 150px;
 }
 
 .App-logo {
-  height: 80px; }
+  height: 80px; 
+}
 
 .App button {
   margin-left:20px;
@@ -242,7 +259,7 @@ from, to { border-color: transparent }
   cursor: pointer;
   background-color: #f3f3f3;
   padding: 10px;
-  max-width: 220px;
+  max-width: 420px;
   text-align: left;
   margin: 0 auto; }
   .card:hover {
@@ -304,7 +321,7 @@ from, to { border-color: transparent }
   
   .cards-slider-wrapper .card {
     flex: 1;
-    min-width: 200px;
+    min-width: 300px;
     opacity: 0.7;
     transform: scale(0.8);
     box-shadow: none;
