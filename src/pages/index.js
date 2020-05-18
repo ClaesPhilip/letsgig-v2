@@ -54,19 +54,19 @@ function IndexPage() {
         </div> */}
 
       </section>
-      <div className='w-full h-40 flex flex-row pt-4 bg-white'>
-        <div className='w-1/3'>
+        <div className='w-full h-40 flex flex-row pt-4 bg-white'>
+          <div className='w-1/3'>
 
 
-          <div className='flex flex-row justify-left'>
-            <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-              <img alt="app store" src={AppStore} width="80" height="100"></img>
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
-              <img alt="google play" src={GooglePlay} width="80" height="100"></img>
-            </a>
+            <div className='flex flex-row justify-left'>
+              <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
+                <img alt="app store" src={AppStore} width="80" height="100"></img>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
+                <img alt="google play" src={GooglePlay} width="80" height="100"></img>
+              </a>
+            </div>
           </div>
-        </div>
 
         <div className='w-1/3'>
 
