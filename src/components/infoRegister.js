@@ -50,9 +50,14 @@ function InfoRegister() {
     </h2>
     <div className="flex flex-wrap">
       <div className="w-full md:w-1/2 px-2 mb-4">
-        <div className="bg-white rounded shadow py-2">
-          <p className="text-gray-800 text-base px-6 mb-5">Monitoring and tracking my health vitals anywhere I go and on any platform I use has never been easier.</p>
-          <p className="text-gray-500 text-xs md:text-sm px-6">John Doe</p>
+        <div className=" rounded shadow py-2">
+          <ul>
+          <li className="text-gray-800 text-base px-6 mb-5">Du registrerar dig enkelt genom att ladda ned LetsGig appen.</li>
+          <li className="text-gray-800 text-base px-6 mb-5">Med ett par klick har du skapat en profil som blir ditt digitala CV.</li>
+          <li className="text-gray-800 text-base px-6 mb-5">Du bestämmer själv hur mycket du vill jobba och inom vilka områden.</li>
+          <li className="text-gray-800 text-base px-6 mb-5">Chatta direkt med arbetsgivare i appen.</li>
+          <li className="text-gray-800 text-base px-6 mb-5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
+          </ul>
         </div>
       </div>
       <div className="w-full md:w-1/2 px-2 mb-4">
