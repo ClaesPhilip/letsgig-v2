@@ -10,7 +10,7 @@ function FlipCards() {
       
     
 
-    <div className='flipCards'>
+    <div className='flex items-center justify-evenly flex-row flipCards'>
         {/* <div className="maincontainer"> */}
 
         <div className="thecard">
