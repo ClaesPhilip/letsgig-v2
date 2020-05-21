@@ -27,6 +27,12 @@
 }
 
 
+
+
+
+
+
+
 /* Info Register */
 .infoRegister {
   display:flex;
@@ -42,19 +48,20 @@
 }
 
 .regButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #E12E8B;
   border: none;
-  font-size: 28px;
+  font-size: 20px;
   color: #FFFFFF;
-  padding: 10px;
-  width: 14rem;
-  height: 4rem;
+  padding: 8px;
+  width: 10rem;
+  height: 2rem;
   text-align: center;
-  transition-duration: 0.4s;
   text-decoration: none;
-  /* overflow: hidden; */
-  /* cursor: pointer; */
   border-radius: 25px;
+  
 }
 
 .infoPink {
@@ -135,14 +142,14 @@ from, to { border-color: transparent }
 
 /* FLIP CARDS */
 .flipCards {
-  margin-top:100px;
-  background: white;
+  
+  
   padding-top: 5rem;
   padding-bottom: 5rem;
   height: 100vh;
   margin-right: 150px;
   margin-left: 150px;
-  box-shadow: 0 0 30px rgb(225, 46, 139);
+  
    
   flex-wrap: wrap;
   /* border-top: 1px solid #ec9eb4; */
