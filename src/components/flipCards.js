@@ -65,20 +65,29 @@ function FlipCards() {
               </div>
 
 
-              <div className="w-full md:w-1/3 px-2 mb-4">
-                <div className="bg-white rounded shadow py-2">
-                  
-                  <p className="text-gray-500 text-xs md:text-sm px-6">Jane Doe</p>
+              <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
+                <div className="bg-white rounded shadow py-2 absolute thefront">
+                <h1>Front of Card</h1><p>This is the front of the card. It contains important information. Please see overleaf for more details.</p>
                 </div>
 
+                <div className="bg-white rounded shadow py-2 relative theback"><h1>Back of Card</h1><p>Your use of this site is subject to the terms and conditions governing this and all transactions.</p>
+                   <button>Submit</button>
+                </div>
 
               </div>
-              <div className="w-full md:w-1/3 px-2 mb-4">
-                <div className="bg-white rounded shadow py-2">
-                 
-                  <p className="text-gray-500 text-xs md:text-sm px-6">James Doe</p>
+
+
+              <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
+                <div className="bg-white rounded shadow py-2 absolute thefront">
+                <h1>Front of Card</h1><p>This is the front of the card. It contains important information. Please see overleaf for more details.</p>
                 </div>
+
+                <div className="bg-white rounded shadow py-2 relative theback"><h1>Back of Card</h1><p>Your use of this site is subject to the terms and conditions governing this and all transactions.</p>
+                   <button>Submit</button>
+                </div>
+
               </div>
+              
             </div>
           </div>
           </section>
