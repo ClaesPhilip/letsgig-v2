@@ -43,33 +43,31 @@ function InfoRegister() {
     //     </div>
     // </div>
 
-    <section className="bg-gray-100">
-  <div className="container mx-auto px-6 py-20">
-    <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+    <section className="bg-pink-100">
+  <div className="container py-20 mx-auto ">
+    {/* <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
       Testimonials
-    </h2>
+    </h2> */}
     <div className="flex flex-wrap">
-      <div className="w-full md:w-1/2 px-2 mb-4">
-        <div className=" rounded shadow py-2">
-          <ul>
+      <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
+        <div className="rounded-lg shadow py-2 bg-white">
+          <h3 className='text-center py-10 font-bold text-lg'>Hej Student!</h3>
+          <ul className='leading-10'>
           <li className="text-gray-800 text-base px-6 mb-5">Du registrerar dig enkelt genom att ladda ned LetsGig appen.</li>
           <li className="text-gray-800 text-base px-6 mb-5">Med ett par klick har du skapat en profil som blir ditt digitala CV.</li>
           <li className="text-gray-800 text-base px-6 mb-5">Du bestämmer själv hur mycket du vill jobba och inom vilka områden.</li>
           <li className="text-gray-800 text-base px-6 mb-5">Chatta direkt med arbetsgivare i appen.</li>
           <li className="text-gray-800 text-base px-6 mb-5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
           </ul>
+          <a href='/' className='flex bg-pink-600 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg'>Registrera dig</a>
+        </div>
+        
+      </div>
+      <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
+        <div className="rounded-lg shadow py-2 bg-white">
+            <h3 className='text-center py-10 font-bold text-lg'>Ladda ned appen</h3>
         </div>
       </div>
-      <div className="w-full md:w-1/2 px-2 mb-4">
-        <div className="bg-white rounded shadow py-2">
-          <p className="text-gray-500 text-xs md:text-sm px-6">Jane Doe</p>
-        </div>
-      </div>
-      {/* <div className="w-full md:w-1/3 px-2 mb-4">
-        <div className="bg-white rounded shadow py-2">
-          <p className="text-gray-500 text-xs md:text-sm px-6">James Doe</p>
-        </div>
-      </div> */}
     </div>
   </div>
 </section>
