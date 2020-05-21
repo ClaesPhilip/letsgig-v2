@@ -9,6 +9,8 @@ import { MdExpandMore } from "react-icons/md";
 
 // IMPORT PAGES
 import InfoRegister from "../components/infoRegister";
+import FlipCards from "../components/flipCards";
+import SlideShow from '../components/slideShow';
 
 
 
@@ -83,6 +85,8 @@ const NewIndex = () => (
     {/* ------------------------------------------- */}
 
     <InfoRegister />
+    <FlipCards />
+    <SlideShow />
 </div>
 
 
