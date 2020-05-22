@@ -58,8 +58,15 @@ function FlipCards() {
                 <h1>Front of Card</h1><p>This is the front of the card. It contains important information. Please see overleaf for more details.</p>
                 </div>
 
-                <div className="bg-white rounded shadow py-2 relative theback"><h1>Back of Card</h1><p>Your use of this site is subject to the terms and conditions governing this and all transactions.</p>
-                   <button>Submit</button>
+                <div className="bg-white rounded shadow py-2 relative theback">
+                <ul className="flex flex-wrap justify-center m-0 p-0">
+                  <li className='px-2 py-10 w-1/3'><a href="/list/A">A</a></li>
+                  <li className='px-2 py-10 w-1/3'><a href="/list/B">B</a></li>
+                  <li className='px-2 py-10 w-1/3'><a href="/list/C">C</a></li>
+                  <li className='px-2 py-10 w-1/3'><a href="/list/D">D</a></li>
+                  <li className='px-2 py-10 w-1/3'><a href="/list/E">E</a></li>
+                  <li className='px-2 py-10 w-1/3'><a href="/list/F">F</a></li>
+                </ul>
                 </div>
 
               </div>
