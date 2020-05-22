@@ -3,6 +3,9 @@ import React from "react";
 // import Layout from "../components/layout";
 // import SEO from "../components/seo";
 
+// IMAGES 
+import Android from '../images/android.png';
+
 
 function FlipCards() {
   return (
@@ -59,13 +62,13 @@ function FlipCards() {
                 </div>
 
                 <div className="bg-white rounded shadow py-2 relative theback">
-                <ul className="flex flex-wrap justify-center m-0 p-0">
-                  <li className='px-2 py-10 w-1/3'><a href="/list/A">A</a></li>
-                  <li className='px-2 py-10 w-1/3'><a href="/list/B">B</a></li>
-                  <li className='px-2 py-10 w-1/3'><a href="/list/C">C</a></li>
-                  <li className='px-2 py-10 w-1/3'><a href="/list/D">D</a></li>
-                  <li className='px-2 py-10 w-1/3'><a href="/list/E">E</a></li>
-                  <li className='px-2 py-10 w-1/3'><a href="/list/F">F</a></li>
+                <ul className="flex flex-wrap p-0">
+                  <li className='py-6 w-1/3'><a href="/list/A"><img border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/B"><img border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/C"><img border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/D"><img border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/E"><img border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/F"><img border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
                 </ul>
                 </div>
 
