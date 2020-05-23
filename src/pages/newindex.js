@@ -10,7 +10,8 @@ import { MdExpandMore } from "react-icons/md";
 // IMPORT PAGES
 import InfoRegister from "../components/infoRegister";
 import FlipCards from "../components/flipCards";
-// import SlideShow from '../components/slideShow';
+import SlideShow from '../components/slideShow';
+import Footer from '../components/footer';
 
 
 
@@ -36,7 +37,7 @@ const NewIndex = () => (
     <div className="hidden lg:block">
       <ul className="inline-flex">
         <li><a className="px-4 font-bold" href="/">Home</a></li>
-        <li><a className="px-4 hover:text-gray-800" href="#">About</a></li>
+        <li><a className="px-4 hover:text-gray-800" href="/lilla">About</a></li>
         <li><a className="px-4 hover:text-gray-800" href="#">Contact</a></li>
       </ul>
     </div>
@@ -86,7 +87,8 @@ const NewIndex = () => (
 
     <InfoRegister />
     <FlipCards />
-    <InfoRegister />
+    <SlideShow />
+    <Footer />
 </div>
 
 
