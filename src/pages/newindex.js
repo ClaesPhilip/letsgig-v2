@@ -37,7 +37,7 @@ const NewIndex = () => (
     <div className="hidden lg:block">
       <ul className="inline-flex">
         <li><a className="px-4 font-bold" href="/">Home</a></li>
-        <li><a className="px-4 hover:text-gray-800" href="/lilla">About</a></li>
+        <li><a className="px-4 hover:text-gray-800" href="/">About</a></li>
         <li><a className="px-4 hover:text-gray-800" href="#">Contact</a></li>
       </ul>
     </div>
@@ -50,6 +50,7 @@ const NewIndex = () => (
 
 <div className="lg:pt-10">
   <div className="container md:mx-auto rutan">
+
     <div className='pt-8 flex'>
           <div className="lg:w-3/4 sm:w-3/5 h-12 "></div>
           <p className='lg:w-1/4 sm:w-2/5 text-pink-700 text-4xl font-semibold items-right flex-no-wrap mobile:invisible lg:visible'>Senaste giggen: <br></br> <p className='animate-text'>UX/UI Designer</p></p>
