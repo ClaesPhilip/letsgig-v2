@@ -14,7 +14,7 @@ function Footer() {
 
 
 
-    <div className="bg-pink-200 h-screen">
+    <div className="bg-pink-100 h-screen">
       
     </div>
   
