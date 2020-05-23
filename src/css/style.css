@@ -21,11 +21,16 @@
   background-position: center center;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  background-size: contain;
-  height: 40rem;
+  /* background-size: contain; */
+  height: 30rem;
   
 }
 
+@media screen and (max-width: 600px) {
+  .rutan {
+    height: 10rem;
+  }
+}
 
 
 
