@@ -19,6 +19,7 @@ import FlipCards from "../components/flipCards";
 import InfoRegister from "../components/infoRegister";
 import SlideShow from '../components/slideShow';
 import Footer from '../components/footer';
+// import Jobs from '../components/availableJobs';
 
 
 function IndexPage() {
@@ -46,9 +47,9 @@ function IndexPage() {
       </section>
 
       <div className='container mx-auto mt-6 flex flex-col sm:flex-row justify-center items-center'>
-          <input className="md:w-1/5 h-12 rounded-full md:mr-6 pl-4 border outline-none" type="text" placeholder="Stad" />
+          <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none" type="text" placeholder="Stad" />
           <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none" type="text" placeholder="Kategori" />
-          <a href='/availebleJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none'>Search</a>
+          <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none'>Search</a>
         </div>
 
         <div className='w-full h-40 flex flex-row pt-4 bg-white'>
