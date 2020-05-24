@@ -166,6 +166,7 @@ from, to { border-color: transparent }
   transform: rotateY(180deg);
 }
 
+
 /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
  .thefront{
   backface-visibility: hidden;
