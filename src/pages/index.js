@@ -46,9 +46,9 @@ function IndexPage() {
       </section>
 
       <div className='container mx-auto mt-6 flex flex-col sm:flex-row justify-center items-center'>
-          <input className="md:w-1/5 h-12 rounded-full md:mr-6 pl-4 border" type="text" placeholder="Stad" />
-          <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border" type="text" placeholder="Kategori" />
-          <a href='/availebleJobs' className='md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center '>Search</a>
+          <input className="md:w-1/5 h-12 rounded-full md:mr-6 pl-4 border outline-none" type="text" placeholder="Stad" />
+          <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none" type="text" placeholder="Kategori" />
+          <a href='/availebleJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none'>Search</a>
         </div>
 
         <div className='w-full h-40 flex flex-row pt-4 bg-white'>
@@ -69,7 +69,7 @@ function IndexPage() {
 
 
           <div className='flex flex-row justify-center border-none'>
-            <button className='w-12 h-12 text-3xl text-pink-600 border-none'><MdExpandMore className='w-full text-4xl' /></button>
+            <button className='w-12 h-12 text-3xl text-pink-600 border-none'><MdExpandMore className='w-full text-4xl outline-none border-none' /></button>
 
           </div>
         </div>
