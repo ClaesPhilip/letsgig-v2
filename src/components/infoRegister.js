@@ -59,7 +59,7 @@ function InfoRegister() {
           <li className="text-gray-800 text-base px-6 mb-5">Chatta direkt med arbetsgivare i appen.</li>
           <li className="text-gray-800 text-base px-6 mb-5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
           </ul>
-          <a href='/' className='flex bg-pink-600 hover:bg-pink-700 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg'>Registrera dig</a>
+          <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg'>Registrera dig</a>
         </div>
         
       </div>
