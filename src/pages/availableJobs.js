@@ -35,7 +35,7 @@ function AvailableJobs() {
                     <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none'>Skicka Länk</a>
                 </div>
 
-                <p className='text-1xl text-center mt-2 underline'>Fyll i ditt mobil nummer ovan så skickar vi en länk</p>
+                <p className='text-sm sm:text-1xl text-center mt-2 underline'>Fyll i ditt mobil nummer ovan så skickar vi en länk</p>
 
               </div>
       </section>
