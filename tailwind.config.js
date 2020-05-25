@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     screens: {
 
-      'mobile': '300px',
+      // 'mobile': '300px',
       // => @media (min-width: 300px) { ... } 
 
       'sm': '640px',

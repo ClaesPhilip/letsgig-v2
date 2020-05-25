@@ -12,6 +12,95 @@
 } */
 
 
+/* //Börjar om på sidan CSS styling */
+
+
+
+.rutan {
+  background-image: url(../images/header.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-size: contain; */
+  height: 30rem;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .rutan {
+    height: 10rem;
+  }
+}
+
+
+.phoneImg {
+  width: 19.5rem;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+/* Info Register */
+.infoRegister {
+  display:flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.infoBlue {
+  width: 50%;
+  margin-left: auto;
+  background: #fdfafc;
+  /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD; */
+  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.regButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E12E8B;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 8px;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  
+}
+
+.infoPink {
+  width: 50%;
+  margin-right: auto;
+  background: #fdfafc;
+  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .landingSection {
     width: 100%;
@@ -47,42 +136,7 @@ from, to { border-color: transparent }
 }
 
 
-/* Info Register */
-.infoRegister {
-  display:flex;
-  flex-wrap: wrap;
-  height: 100vh;
-}
-.infoBlue {
-  width: 50%;
-  margin-left: auto;
-  background: #fdfafc;
-  /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD; */
-  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
-}
 
-.regButton {
-  background-color: #E12E8B;
-  border: none;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 10px;
-  width: 14rem;
-  height: 4rem;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  /* overflow: hidden; */
-  /* cursor: pointer; */
-  border-radius: 25px;
-}
-
-.infoPink {
-  width: 50%;
-  margin-right: auto;
-  background: #fdfafc;
-  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
-} 
 
 
 /* // OUR VISION */
@@ -100,76 +154,43 @@ from, to { border-color: transparent }
 
 /* FLIP CARDS */
 .flipCards {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  margin-top:100px;
-  background: white;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  height: 100vh;
+  height: 50rem;
   margin-right: 150px;
   margin-left: 150px;
-  box-shadow: 0 0 30px rgb(225, 46, 139);
-   
   flex-wrap: wrap;
-  /* border-top: 1px solid #ec9eb4; */
 }
 
 /* THE CARD HOLDS THE FRONT AND BACK FACES */
 .thecard{
-  position: relative;
-  /* top: 0; */
-  /* left: 0; */
-  width: 20%;
-  min-width: 20rem;
-  height: 90%;
-  /* margin:30px; */
-  margin-left:20px;
-  border-radius: 10px;
   transform-style: preserve-3d;
   transition: all 0.8s ease;
-  /* transform: translate(-5%, -5%); */
+  height: 400px;
 }
-
-
 
 /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
 .thecard:hover{
   transform: rotateY(180deg);
 }
 
+
 /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
  .thefront{
-  position: absolute;
-  /* top: 0; */
-  /* left: 0; */
-  width: 100%;
-  height: 100%;
-  padding:20px;
-  border-radius: 10px;
   backface-visibility: hidden;
   overflow: hidden;
-  background: white;
-  box-shadow: 2px 2px 2px 2px rgb(225, 46, 139) ;
-  color: #000;
+  height: 400px;
+  background-color: #fff5f7;
 }
 
 /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
 .theback{
-  position: absolute;
-  /* top: 0; */
-  /* left: 0; */
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
   backface-visibility: hidden;
   overflow: hidden;
-  background: white;
-  color: #333;
   text-align: center;
   transform: rotateY(180deg);
+  height: 400px;
+  background-color: #fff5f7;
 }
 
 
@@ -211,9 +232,10 @@ from, to { border-color: transparent }
   text-align: center;
   position: relative;
   /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD;  */
-  background: white; 
+  background: #fff5f7; 
   height: 30rem;
-  margin-top: 150px;
+  /* margin-top: 150px; */
+  padding-top: 7rem;
 }
 
 .App-logo {
@@ -222,6 +244,7 @@ from, to { border-color: transparent }
 
 .App button {
   margin-left:20px;
+  outline:none;
 }
 
 /* DEMO STYLES */
@@ -247,7 +270,9 @@ from, to { border-color: transparent }
 .section {
   padding: 20px 0;
   max-width: 600px;
-  margin: 0 auto; }
+  margin: 0 auto; 
+  
+}
 
 /* #endregion */
 /* #region Card */
