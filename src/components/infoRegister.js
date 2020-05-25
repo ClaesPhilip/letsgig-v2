@@ -1,7 +1,12 @@
 import React from "react";
 
 import phone from '../images/phoneImg.svg';
-import checkMarks from '../images/checkMarks.svg'
+import CheckMark1 from '../images/checkMark1.svg'
+import CheckMark2 from '../images/checkMark2.svg'
+import CheckMark3 from '../images/checkMark3.svg'
+import CheckMark4 from '../images/checkMark4.svg'
+import CheckMark5 from '../images/checkMark5.svg'
+
 
 // import Layout from "../components/layout";
 // import SEO from "../components/seo";
@@ -56,11 +61,11 @@ function InfoRegister() {
             <div className="rounded-lg shadow py-2 bg-white">
               <h3 className='text-center py-10 font-bold text-lg'>Hej Student!</h3>
               <ul className='leading-10'>
-                <img alt="Checkmarks" src={checkMarks} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg1">Du registrerar dig enkelt genom att ladda ned LetsGig appen.</li>
-                <li className="text-gray-800 text-base px-6 mb-5 reg2">Med ett par klick har du skapat en profil som blir ditt digitala CV.</li>
-                <li className="text-gray-800 text-base px-6 mb-5 reg3">Du bestämmer själv hur mycket du vill jobba och inom vilka områden.</li>
-                <li className="text-gray-800 text-base px-6 mb-5 reg4">Chatta direkt med arbetsgivare i appen.</li>
-                <li className="text-gray-800 text-base px-6 mb-5 reg5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
+                <img alt="Checkmark1" src={CheckMark1} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg1">Du registrerar dig enkelt genom att ladda ned LetsGig appen.</li>
+                <img alt="Checkmark2" src={CheckMark2} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg2">Med ett par klick har du skapat en profil som blir ditt digitala CV.</li>
+                <img alt="Checkmark3" src={CheckMark3} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg3">Du bestämmer själv hur mycket du vill jobba och inom vilka områden.</li>
+                <img alt="Checkmark4" src={CheckMark4} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg4">Chatta direkt med arbetsgivare i appen.</li>
+                <img alt="Checkmark5" src={CheckMark5} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
               </ul>
               <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg'>Registrera dig</a>
             </div>
