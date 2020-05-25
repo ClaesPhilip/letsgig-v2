@@ -1,6 +1,7 @@
 import React from "react";
 
 import phone from '../images/phoneImg.svg';
+import checkMarks from '../images/checkMarks.svg'
 
 // import Layout from "../components/layout";
 // import SEO from "../components/seo";
@@ -9,13 +10,13 @@ import phone from '../images/phoneImg.svg';
 
 function InfoRegister() {
   return (
-   
-      
-
-// TESTA OCH GÖRA HELA INFO REGISTER MED STYLED COMPONENTS
 
 
-    
+
+    // TESTA OCH GÖRA HELA INFO REGISTER MED STYLED COMPONENTS
+
+
+
     // <div className="infoRegister">
     //     <div className="infoBlue">
     //       <div className='flex flex-col mt-12 lg:px-24 md:px-12 mobile:px-6 '>
@@ -46,35 +47,35 @@ function InfoRegister() {
     // </div>
 
     <section className="bg-pink-100">
-  <div className="container py-20 mx-auto ">
-    {/* <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <div className="container py-20 mx-auto ">
+        {/* <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
       Testimonials
     </h2> */}
-    <div className="flex flex-wrap">
-      <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
-        <div className="rounded-lg shadow py-2 bg-white">
-          <h3 className='text-center py-10 font-bold text-lg'>Hej Student!</h3>
-          <ul className='leading-10'>
-          <li className="text-gray-800 text-base px-6 mb-5">Du registrerar dig enkelt genom att ladda ned LetsGig appen.</li>
-          <li className="text-gray-800 text-base px-6 mb-5">Med ett par klick har du skapat en profil som blir ditt digitala CV.</li>
-          <li className="text-gray-800 text-base px-6 mb-5">Du bestämmer själv hur mycket du vill jobba och inom vilka områden.</li>
-          <li className="text-gray-800 text-base px-6 mb-5">Chatta direkt med arbetsgivare i appen.</li>
-          <li className="text-gray-800 text-base px-6 mb-5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
-          </ul>
-          <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg'>Registrera dig</a>
+        <div className="flex flex-wrap">
+          <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
+            <div className="rounded-lg shadow py-2 bg-white">
+              <h3 className='text-center py-10 font-bold text-lg'>Hej Student!</h3>
+              <ul className='leading-10'>
+                <img alt="Checkmarks" src={checkMarks} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg1">Du registrerar dig enkelt genom att ladda ned LetsGig appen.</li>
+                <li className="text-gray-800 text-base px-6 mb-5 reg2">Med ett par klick har du skapat en profil som blir ditt digitala CV.</li>
+                <li className="text-gray-800 text-base px-6 mb-5 reg3">Du bestämmer själv hur mycket du vill jobba och inom vilka områden.</li>
+                <li className="text-gray-800 text-base px-6 mb-5 reg4">Chatta direkt med arbetsgivare i appen.</li>
+                <li className="text-gray-800 text-base px-6 mb-5 reg5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
+              </ul>
+              <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg'>Registrera dig</a>
+            </div>
+
+          </div>
+          <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
+            <div className="rounded-lg shadow py-2 bg-white">
+              <h3 className='text-center py-10 font-bold text-lg'>Ladda ned appen</h3>
+              <img alt="phone" src={phone} className='mx-auto' />
+            </div>
+          </div>
         </div>
-        
       </div>
-      <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
-        <div className="rounded-lg shadow py-2 bg-white">
-            <h3 className='text-center py-10 font-bold text-lg'>Ladda ned appen</h3>
-            <img alt="phone" src={phone} className='mx-auto' />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-    
+    </section>
+
   );
 }
 
