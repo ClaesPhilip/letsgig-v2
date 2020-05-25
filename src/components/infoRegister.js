@@ -68,7 +68,7 @@ function InfoRegister() {
       <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
         <div className="rounded-lg shadow py-2 bg-white">
             <h3 className='text-center py-10 font-bold text-lg'>Ladda ned appen</h3>
-            <img alt="phone" src={phone} className='mx-auto' />
+            <img alt="phone" src={phone} className='mx-auto phoneImg' />
         </div>
       </div>
     </div>
