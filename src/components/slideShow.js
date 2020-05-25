@@ -12,7 +12,7 @@ class SlideShow extends Component {
     super(props);
     this.state = {
       properties: data.properties,
-      property: data.properties[0]
+      property: data.properties[6]
     }
   }
 
