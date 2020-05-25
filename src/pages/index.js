@@ -47,6 +47,7 @@ function IndexPage() {
       </section>
 
       <div className='container mx-auto mt-6 flex flex-col sm:flex-row justify-center items-center'>
+        <h1 className='text-pink-700 mr-6 text-xl font-semibold'>Hitta Gig:</h1> 
           <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none" type="text" placeholder="Stad" />
           <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none" type="text" placeholder="Kategori" />
           <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none'>Search</a>
