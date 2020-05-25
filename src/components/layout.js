@@ -5,16 +5,16 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900 bg-pink-200">
+    <div className="">
       <Header />
 
-      <main className="flex-1 w-full h-64 mx-auto bg-white ">
+      <main className="">
         {children}
       </main>
 
 
 
-      {/* <footer className="border border-black">
+      {/* <footer className="border border-black h-screen">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
           <p className="text-black">
             Created by{` `}
