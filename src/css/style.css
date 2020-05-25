@@ -159,6 +159,7 @@ from, to { border-color: transparent }
 .thecard{
   transform-style: preserve-3d;
   transition: all 0.8s ease;
+  height: 400px;
 }
 
 /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
@@ -171,6 +172,8 @@ from, to { border-color: transparent }
  .thefront{
   backface-visibility: hidden;
   overflow: hidden;
+  height: 400px;
+  background-color: #fff5f7;
 }
 
 /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
@@ -179,6 +182,8 @@ from, to { border-color: transparent }
   overflow: hidden;
   text-align: center;
   transform: rotateY(180deg);
+  height: 400px;
+  background-color: #fff5f7;
 }
 
 
