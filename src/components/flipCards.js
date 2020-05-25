@@ -59,24 +59,21 @@ function FlipCards() {
 
               <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
                 <div className="bg-white rounded shadow py-2 absolute thefront">
-                  <img src={MainPic} className='cover w-full '></img>
+                  <img src={MainPic} className='contain w-full object-cover '></img>
                 <h1>Kontor</h1>
                 </div>
 
                 <div className="bg-white rounded shadow py-2 relative theback">
                 <ul className="flex flex-wrap p-0">
-                  <li className='py-6 w-1/3'><a href="/list/A"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/B"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/C"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/D"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/E"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/F"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/A"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/B"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/C"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/D"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/E"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/F"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/A">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/B">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/C">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/D">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/E">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/F">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/A">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/B">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/C">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
                 </ul>
                 </div>
 
@@ -91,18 +88,15 @@ function FlipCards() {
 
                 <div className="bg-white rounded shadow py-2 relative theback">
                 <ul className="flex flex-wrap p-0">
-                  <li className='py-6 w-1/3'><a href="/list/A"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/B"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/C"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/D"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/E"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/F"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/A"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/B"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/C"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/D"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/E"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/F"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/A">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/B">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/C">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/D">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/E">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/F">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/A">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/B">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/C">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
                 </ul>
                 </div>
 
@@ -117,18 +111,16 @@ function FlipCards() {
 
                 <div className="bg-white rounded shadow py-2 relative theback">
                 <ul className="flex flex-wrap p-0">
-                  <li className='py-6 w-1/3'><a href="/list/A"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/B"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/C"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/D"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/E"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/F"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/A"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/B"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/C"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/D"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/E"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
-                  <li className='py-6 w-1/3'><a href="/list/F"><img className='ml-10' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/A">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/B">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/C">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/D">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/E">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/F">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/A">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/B">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  <li className='py-6 w-1/3'><a href="/list/C">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
+                  
                 </ul>
                 </div>
 
