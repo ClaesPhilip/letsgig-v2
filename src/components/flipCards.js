@@ -50,9 +50,9 @@ function FlipCards() {
 
           <section className="bg-white">
           <div className="container mx-auto px-6 py-20">
-            <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+            {/* <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
               Flipcards
-            </h2>
+            </h2> */}
 
             <div className="flex flex-wrap">
 
