@@ -1,7 +1,7 @@
 import React from "react";
 
 // IMAGES 
-import Android from '../images/android.png';
+import Android from '../images/android.svg';
 import MainPic from '../images/mainPic.jpeg';
 
 
@@ -87,11 +87,11 @@ function FlipCards() {
                 </div>
 
               </div>
-              
-            </div>
-          </div>
-          </section>
-             
+
+        </div>
+      </div>
+    </section>
+
   );
 }
 
