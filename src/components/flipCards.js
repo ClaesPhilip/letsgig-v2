@@ -46,8 +46,10 @@ function FlipCards() {
 
               <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
                 <div className="bg-white rounded shadow py-2 absolute thefront">
-                <img src={MainPic} className='cover w-full '></img>
-                <h1>Digitalt</h1>
+                <div className='sm:h-32 lg:h-auto'>
+                  <img src={MainPic} className='lg:w-full sm:object-cover'></img>
+                  </div>
+                <h1 className='sm:text-white md:text-black'>Digitalt</h1>
                 </div>
 
                 <div className="bg-white rounded shadow py-2 relative theback">
@@ -69,8 +71,10 @@ function FlipCards() {
 
               <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
                 <div className="bg-white rounded shadow py-2 absolute thefront">
-                <img src={MainPic} className='cover w-full '></img>
-                <h1>Service</h1>
+                <div className='sm:h-32 lg:h-auto'>
+                  <img src={MainPic} className='lg:w-full sm:object-cover'></img>
+                  </div>
+                <h1 className='sm:text-white md:text-black'>Service</h1>
                 </div>
 
                 <div className="bg-white rounded shadow py-2 relative theback">
