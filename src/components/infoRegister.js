@@ -1,6 +1,10 @@
 import React from "react";
 
 import phone from '../images/phoneImg.svg';
+// import AppStore from '../images/apple.svg';
+import GooglePlay from '../images/newGoogle.png';
+
+
 
 
 function InfoRegister() {
@@ -26,8 +30,17 @@ function InfoRegister() {
       </div>
       <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
         <div className="rounded-lg shadow py-2 bg-white">
-            <h3 className='text-center py-10 font-bold text-lg'>Ladda ned appen</h3>
-            <img alt="phone" src={phone} className='mx-auto phoneImg' />
+            <h3 className='text-center py-10 font-bold text-lg md:mt-2 lg:mt-0'>Ladda ned appen</h3>
+            <img alt="phone" src={phone} className='mx-auto md:mt-12 lg:mt-0 phoneImg' />
+            
+            <div className='flex items-center justify-center mt-6 md:mt-32 lg:mt-6'>
+              <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
+                <img alt="google play" src={GooglePlay} width="150" ></img>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
+                <img alt="google play" src={GooglePlay} width="150" height="100"></img>
+              </a>
+            </div>
         </div>
       </div>
     </div>
