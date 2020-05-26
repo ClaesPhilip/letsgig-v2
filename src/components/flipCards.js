@@ -21,7 +21,9 @@ function FlipCards() {
 
               <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
                 <div className="bg-white rounded shadow py-2 absolute thefront">
-                  <img src={MainPic} className='contain w-full object-cover '></img>
+                  <div className='h-32'>
+                  <img src={MainPic} className='lg:w-full sm:object-cover'></img>
+                  </div>
                 <h1>Kontor</h1>
                 </div>
 
