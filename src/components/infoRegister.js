@@ -5,6 +5,8 @@ import phone from '../images/phoneImg.svg';
 import GooglePlay from '../images/newGoogle.png';
 
 
+
+
 function InfoRegister() {
   return (
 
