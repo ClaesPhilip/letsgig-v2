@@ -16,7 +16,7 @@ function Footer() {
 
     <div className="bg-pink-100 h-screen">
       <footer className="">
-  <div className="container mx-auto px-6 pt-10 pb-6">
+  <div className="container mx-auto px-6 pt-10 pb-6 bg-pink-100">
     <div className="flex flex-wrap sm:mt-64 mt-32">
       <div className="w-full md:w-1/4 text-center">
         <h5 className="uppercase mb-6 font-bold">Links</h5>
