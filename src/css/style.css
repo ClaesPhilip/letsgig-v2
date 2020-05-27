@@ -215,7 +215,14 @@ from, to { border-color: transparent }
   text-align: center;
 }
   
+.phone {
+  margin-top: 150px;
+  padding-left: 100px;
+}
 
+.leftButton {
+  margin-top: 150px; 
+}
 
 
 
@@ -636,6 +643,33 @@ from, to { border-color: transparent }
     position: absolute;
     top: 0;
     left: 0; }
+ 
+
+ .reg1{
+  margin-top: -2.5rem; 
+  margin-left: 2rem;
+}
+
+.reg2{
+  margin-top: -2.5rem;
+  margin-left: 2rem;
+}
+
+.reg3{
+  margin-top: -2.5rem;
+  margin-left: 2rem;
+}
+
+.reg4{
+  margin-top: -2.5rem;
+  margin-left: 2rem;
+}
+
+.reg5{
+  margin-top: -2.5rem;
+  margin-left: 2rem;
+}
+
 
 /* #endregion */
 
