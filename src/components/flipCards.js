@@ -5,7 +5,9 @@ import React from "react";
 
 // IMAGES 
 import Android from '../images/android.svg';
-import MainPic from '../images/mainPic.jpeg';
+import IT from '../images/IT.jpg';
+import Office from '../images/Event.jpg';
+import Barista from '../images/Barista.jpg';
 
 
 function FlipCards() {
@@ -59,8 +61,8 @@ function FlipCards() {
 
           <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
             <div className="bg-white rounded shadow py-2 absolute thefront">
-              <img src={MainPic} className='contain w-full object-cover '></img>
-              <h1>Kontor</h1>
+              <img src={Office} className='contain w-full object-cover '></img>
+              <h1>Event</h1>
             </div>
 
             <div className="bg-white rounded shadow py-2 relative theback">
@@ -82,7 +84,7 @@ function FlipCards() {
 
           <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
             <div className="bg-white rounded shadow py-2 absolute thefront">
-              <img src={MainPic} className='cover w-full '></img>
+              <img src={IT} className='cover w-full '></img>
               <h1>Digitalt</h1>
             </div>
 
@@ -105,7 +107,7 @@ function FlipCards() {
 
           <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
             <div className="bg-white rounded shadow py-2 absolute thefront">
-              <img src={MainPic} className='cover w-full '></img>
+              <img src={Barista} className='cover w-full '></img>
               <h1>Service</h1>
             </div>
 

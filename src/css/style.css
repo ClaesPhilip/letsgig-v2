@@ -52,7 +52,7 @@
   /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
 }
 
-.regButton {
+/* .regButton {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +68,7 @@
   border-radius: 25px;
   
 }
-
+ */
 .infoPink {
   width: 50%;
   margin-right: auto;
@@ -657,7 +657,17 @@ from, to { border-color: transparent }
   margin-left: 2rem;
 }
 
+.person{
+  float: right;
+}
 
+.regButton{
+  margin-left: 15.5rem;
+}
+
+.download{
+  padding-top: 7rem;
+}
 /* #endregion */
 
 

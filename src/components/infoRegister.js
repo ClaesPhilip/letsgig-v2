@@ -6,6 +6,11 @@ import CheckMark2 from '../images/checkMark2.svg'
 import CheckMark3 from '../images/checkMark3.svg'
 import CheckMark4 from '../images/checkMark4.svg'
 import CheckMark5 from '../images/checkMark5.svg'
+import Person from '../images/person.png'
+import AppStore from '../images/apple.svg'
+import GooglePlay from '../images/android.svg'
+
+
 
 
 // import Layout from "../components/layout";
@@ -58,21 +63,30 @@ function InfoRegister() {
     </h2> */}
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
-            <div className="rounded-lg shadow py-2 bg-white">
+            <div className="bg-pink-100">
               <h3 className='text-center py-10 font-bold text-lg'>Hej Student!</h3>
-              <ul className='leading-10'>
+              <ul className='leading-10 ml-6'>
                 <img alt="Checkmark1" src={CheckMark1} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg1">Du registrerar dig enkelt genom att ladda ned LetsGig appen.</li>
                 <img alt="Checkmark2" src={CheckMark2} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg2">Med ett par klick har du skapat en profil som blir ditt digitala CV.</li>
                 <img alt="Checkmark3" src={CheckMark3} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg3">Du bestämmer själv hur mycket du vill jobba och inom vilka områden.</li>
                 <img alt="Checkmark4" src={CheckMark4} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg4">Chatta direkt med arbetsgivare i appen.</li>
                 <img alt="Checkmark5" src={CheckMark5} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
-              </ul>
-              <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg'>Registrera dig</a>
-            </div>
+                <img alt="Person" src={Person} className='flex items-end person' /></ul>
 
+
+
+
+              <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center rounded-lg regButton'>Registrera dig</a>
+            </div>
+            <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
+              <img alt="app store" src={AppStore} width="72" height="100"></img>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
+              <img alt="google play" src={GooglePlay} width="80" height="100"></img>
+            </a>
           </div>
           <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
-            <div className="rounded-lg shadow py-2 bg-white">
+            <div className="bg-pink-100">
               <h3 className='text-center py-10 font-bold text-lg'>Ladda ned appen</h3>
               <img alt="phone" src={phone} className='mx-auto' />
             </div>
