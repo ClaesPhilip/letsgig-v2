@@ -306,14 +306,18 @@ from, to { border-color: transparent }
   max-width: 420px;
   text-align: center;
   margin: 0 auto; 
-  border-radius: 45px;}
+  border-radius: 45px;
+}
   .card:hover {
     background-color: #f3f3f3;
     border-color: #f3f3f3; }
   .card img {
     max-width: calc(100%);
     margin: 0 auto;
-    display: block; }
+    display: block; 
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+  }
   .card .index {
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
