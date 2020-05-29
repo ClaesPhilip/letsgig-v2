@@ -4,6 +4,8 @@ import Card from '../components/Card';
 import data from '../data/data';
 // import logo from '../images/assets/logo.svg';
 // import logo from '../assets/logo.svg';
+import { MdArrowBack } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
 
 // class component
 class SlideShow extends Component {
@@ -38,12 +40,12 @@ class SlideShow extends Component {
         <button 
           onClick={() => this.prevProperty()} 
           disabled={property.index === 0}
-        >Tillbaka</button>
+        ><MdArrowBack className='text-4xl outline-none border-none' /></button>
         
         <button 
           onClick={() => this.nextProperty()} 
           disabled={property.index === data.properties.length-1}
-        >Nästa</button>
+        ><MdArrowForward className='text-4xl outline-none border-none' /></button>
         
 
         <div className="page">
