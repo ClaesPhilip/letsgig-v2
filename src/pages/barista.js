@@ -20,14 +20,14 @@ function FlipCards() {
     title="About"
     />
     
-    <section className=" h-screen">
+    <section className=" h-full">
     <div className="container mx-auto px-6 pt-6">
       <h2 className="text-6xl font-bold text-left text-gray-800 px-6 md:ml-20 w-64 inline-block">
         Barista
       </h2>
-      <div className="flex flex-wrap justify-center">
-        <div className="w-full md:w-1/2 px-2 mb-4">
-          <div className="bg-white py-2">
+      <div className="flex flex-wrap justify-center bg-pink-100">
+        <div className="w-full md:w-1/2 px-2 mb-4 ">
+          <div className=" py-2">
             <h3 className="text-gray-800 text-xl  px-6">Letar du efter barista jobb?</h3>
             <p className='text-gray-800 px-6 pb-6 ' >Har du en kärlek till kaffe? Titta då på de barista-jobb som Let’s gig har att erbjuda. 
             Vi har ett fantastiskt urval av lediga barista-jobb, allt från experimentella pop-ups, knäppa kaffebarer och mer traditionella, etablerade varumärken.</p>
@@ -43,8 +43,8 @@ function FlipCards() {
 
           </div>
         </div>
-        <div className="w-full md:w-1/3 px-2 mb-4 lg:ml-12 ">
-          <div className="py-2 text-center">
+        <div className="w-full md:w-1/3 px-2 mb-4 lg:ml-12 bg-pink-100">
+          <div className="py-2 text-center ">
             <p className="text-gray-800 text-2xl pb-6 px-6">Färdigheter vi brukar söka;</p>
             <ul>
               <li>• God kommunikation och beställningsförmåga</li>
@@ -65,7 +65,7 @@ function FlipCards() {
     <div className="container mx-auto px-6 pt-20">
       <div className="flex flex-wrap justify-center">
         <div className="w-full md:w-1/2 px-2 mb-4">
-          <div className="bg-white py-2">
+          <div className="bg-pink-100 py-2">
             <h1 className="text-gray-800 px-6 mb-5 text-2xl font-bold">Vad gör dig till en bra barista?</h1>
             <h3 className="text-gray-800 text-xl  px-6">Ta intiativ</h3>
             <p className='text-gray-800 px-6 pb-6 ' >När du har lärt dig grunderna i jobbet, stå inte bara runt och vänta på att bli ombedd att göra en annan uppgift, 
@@ -100,7 +100,7 @@ function FlipCards() {
     <div className="container mx-auto px-6 pt-20">
       <div className="flex flex-wrap justify-center">
         <div className="w-full md:w-1/2 px-2 mb-4">
-          <div className="bg-white py-10">
+          <div className="bg-pink-100 py-10">
             <h1 className="text-gray-800 px-6 mb-8 text-2xl font-bold">Vad gör dig till en bra barista?</h1>
             <h3 className="text-gray-800 text-xl px-6 mb-3">Ta intiativ</h3>
             <ul className='px-6 leading-loose'>
