@@ -30,7 +30,7 @@ function IndexPage() {
         title="Home"
       />
 
-      <section className="bg-contain rutan">
+      <section className="bg-contain landingImage">
 
         <div className='pt-8 flex'>
           <div className="lg:w-3/4 sm:w-3/5 h-12 "></div>
@@ -39,7 +39,7 @@ function IndexPage() {
 
       </section>
 
-      <div className='container mx-auto mt-6 md:ml-16 ml-0 flex flex-col sm:flex-row justify-center items-center'>
+      <div className='container mx-auto mt-6   flex flex-col sm:flex-row justify-center items-center'>
         <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg" type="text" placeholder="Stad" />
         <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg" type="text" placeholder="Kategori" />
         <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none'>Sök Jobb</a>
@@ -50,10 +50,10 @@ function IndexPage() {
 
           <div className='flex items-center justify-left lg:ml-20 md:ml-8 invisible md:visible'>
             <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-              <img alt="app store" src={AppStore} width="130" height="130"></img>
+              <img alt="app store" src={AppStore} width="130" height="130" className='mr-2 mt-10'></img>
             </a>
             <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
-              <img alt="google play" src={GooglePlay} width="130" height="130"></img>
+              <img alt="google play" src={GooglePlay} width="130" height="130" className='mr-2 mt-10'></img>
             </a>
           </div>
         </div>
