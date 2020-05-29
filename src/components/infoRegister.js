@@ -25,7 +25,7 @@ function InfoRegister() {
 
           <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
             <div className="rounded-lg shadow py-2 bg-white">
-              <h3 className='text-center py-10 font-bold text-lg '>Hej Student!</h3>
+              <h3 className='text-center py-10 font-bold text-lg '>Börja söka jobb på 5 minuter!</h3>
               <ul className='leading-10'>
                 <img alt="Checkmark1" src={CheckMark1} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg1">Du registrerar dig enkelt genom att ladda ned LetsGig appen.</li>
                 <img alt="Checkmark2" src={CheckMark2} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg2">Med ett par klick har du skapat en profil som blir ditt digitala CV.</li>
@@ -33,7 +33,7 @@ function InfoRegister() {
                 <img alt="Checkmark4" src={CheckMark4} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg4">Chatta direkt med arbetsgivare i appen.</li>
                 <img alt="Checkmark5" src={CheckMark5} className='flex items-start' /> <li className="text-gray-800 text-base px-6 mb-5 reg5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
               </ul>
-              <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg md:mt-8 lg:mt-0'>Registrera dig</a>
+              <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg md:mt-8 lg:mt-0'>Kom igång</a>
             </div>
           </div>
 
