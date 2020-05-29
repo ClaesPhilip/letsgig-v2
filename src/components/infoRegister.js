@@ -44,9 +44,9 @@ function InfoRegister() {
               <img alt="phone" src={phone} className='mx-auto md:mt-16 lg:mt-0 phoneImg' />
               <div className='flex items-center justify-center mt-6 md:mt-32 lg:mt-6'>
                 <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-                  <img alt="google play" src={AppStore} width="130" ></img>
+                  <img alt="google play" src={AppStore} width="130" className='mr-2 shadow-lg' ></img>
                 </a>
-                <img alt="google play" src={GooglePlay} width="130" height="100"></img>
+                <img alt="google play" src={GooglePlay} width="130" height="100" className='mr-2 shadow-lg'></img>
               </div>
             </div>
           </div>
