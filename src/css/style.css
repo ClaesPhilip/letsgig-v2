@@ -15,7 +15,6 @@
 /* //Börjar om på sidan CSS styling */
 
 
-
 .rutan {
   background-image: url(../images/header.svg);
   background-position: center center;
@@ -194,7 +193,7 @@ from, to { border-color: transparent }
   backface-visibility: hidden;
   overflow: hidden;
   height: 400px;
-  background-color: #fff5f7;
+  background-color: #fff8f9;
 }
 
 /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
@@ -204,7 +203,7 @@ from, to { border-color: transparent }
   text-align: center;
   transform: rotateY(180deg);
   height: 400px;
-  background-color: #fff5f7;
+  background-color: #fff8f8;
 }
 
 
@@ -678,6 +677,10 @@ from, to { border-color: transparent }
 .reg5{
   margin-top: -2.5rem;
   margin-left: 2rem;
+}
+
+.textinput{
+  
 }
 
 
