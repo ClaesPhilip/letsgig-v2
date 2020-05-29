@@ -8,7 +8,7 @@ function Layout({ children }) {
     <div className="">
       <Header />
 
-      <main className="">
+      <main className="bg-pink-100">
         {children}
       </main>
 
