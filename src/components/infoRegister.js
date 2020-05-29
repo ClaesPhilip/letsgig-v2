@@ -2,7 +2,8 @@ import React from "react";
 
 import phone from '../images/phoneImg.svg';
 // import AppStore from '../images/apple.svg';
-import GooglePlay from '../images/newGoogle.png';
+import GooglePlay from '../images/google-play.png';
+import AppStore from '../images/app-store.png';
 
 import CheckMark1 from '../images/checkMark1.svg'
 import CheckMark2 from '../images/checkMark2.svg'
@@ -43,9 +44,9 @@ function InfoRegister() {
               <img alt="phone" src={phone} className='mx-auto md:mt-16 lg:mt-0 phoneImg' />
               <div className='flex items-center justify-center mt-6 md:mt-32 lg:mt-6'>
                 <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-                  <img alt="google play" src={GooglePlay} width="150" ></img>
+                  <img alt="google play" src={AppStore} width="130" ></img>
                 </a>
-                <img alt="google play" src={GooglePlay} width="150" height="100"></img>
+                <img alt="google play" src={GooglePlay} width="130" height="100"></img>
               </div>
             </div>
           </div>
