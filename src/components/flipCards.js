@@ -13,9 +13,9 @@ function FlipCards() {
 
     <section className="bg-pink-100">
       <div className="container mx-auto px-6 py-20">
-            {/* <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
-              Flipcards
-            </h2> */}
+            <h2 className="text-4xl font-bold text-center text-black mb-8">
+              Bli inspirerad!
+            </h2>
 
         <div className="flex flex-wrap">       
           <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
