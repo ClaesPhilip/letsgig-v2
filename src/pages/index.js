@@ -50,10 +50,10 @@ function IndexPage() {
         
           <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none" type="text" placeholder="Stad" />
           <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none" type="text" placeholder="Kategori" />
-          <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none'>Search</a>
+          <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none'>Sök jobb</a>
         </div>
 
-        <div className='w-full h-40 flex flex-row pt-4 bg-white'>
+        <div className='w-full h-40 flex flex-row pt-4 bg-pink-100'>
           <div className='w-1/3'>
 
 
