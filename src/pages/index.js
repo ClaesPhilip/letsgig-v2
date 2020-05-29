@@ -50,10 +50,10 @@ function IndexPage() {
 
           <div className='flex items-center justify-left lg:ml-20 md:ml-8 invisible md:visible'>
             <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-              <img alt="app store" src={AppStore} width="130" height="130" className='mr-2 mt-10'></img>
+              <img alt="app store" src={AppStore} width="130" height="130" className='mr-2 mt-10 shadow-lg'></img>
             </a>
             <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
-              <img alt="google play" src={GooglePlay} width="130" height="130" className='mr-2 mt-10'></img>
+              <img alt="google play" src={GooglePlay} width="130" height="130" className='mr-2 mt-10 shadow-lg'></img>
             </a>
           </div>
         </div>
