@@ -7,6 +7,7 @@ import SEO from "../components/seo";
 import Teacup from '../images/Teacup.png';
 import Maps from '../images/maps.png';
 import PhoneBarista from '../images/phoneBarista.png';
+import GooglePlay from '../images/newGoogle.png';
 
 
 
@@ -119,6 +120,17 @@ function FlipCards() {
         </div>
         <div className='baristaAppBox'>
           <h1 className='text-center text-3xl pt-2'>Ladda ned appen och ansök nu! </h1>
+          <div className='flex items-center justify-center mt-6 md:mt-32 lg:mt-6'>
+              <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
+               <img alt="google play" src={GooglePlay} width="150" ></img>
+               </a>
+                   <img alt="google play" src={GooglePlay} width="150" height="100"></img>
+               </div>
+               &nbsp;
+               &nbsp;
+               &nbsp;
+               &nbsp;
+               &nbsp;
         </div>
         
       </div>
