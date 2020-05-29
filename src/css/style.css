@@ -303,10 +303,10 @@ from, to { border-color: transparent }
   transition: all 0.3s linear;
   cursor: pointer;
   background-color: #f3f3f3;
-  padding: 10px;
   max-width: 420px;
-  text-align: left;
-  margin: 0 auto; }
+  text-align: center;
+  margin: 0 auto; 
+  border-radius: 45px;}
   .card:hover {
     background-color: #f3f3f3;
     border-color: #f3f3f3; }
@@ -317,7 +317,7 @@ from, to { border-color: transparent }
   .card .index {
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
-    line-height: 20px;
+    line-height: 40px;
     font-size: 14px;
     position: absolute;
     top: 0;
