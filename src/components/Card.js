@@ -2,16 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Card = ({property}) => {
-    const {index, picture, city, title} = property;
-    // const {index, picture, city, title, bedrooms, bathrooms, carSpaces} = property;
+    const {index, picture, title} = property;
+    
     return (
         <div id={`card-${index}`} className="card">
-            <img src={picture} alt={city} />
+            <img src={picture}  />
             <div className="details">
                 {/* <span className="index">{index+1}</span> */}
                 <p className="location">
-                    {title}<br />
-                    {'- ' + city}
+                    {title}
                 </p>
                 <ul className="features">
                     {/* <li className="icon-bed">{bedrooms} <span>bedrooms</span></li>
