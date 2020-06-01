@@ -4,8 +4,8 @@ import Card from '../components/Card';
 import data from '../data/data';
 // import logo from '../images/assets/logo.svg';
 // import logo from '../assets/logo.svg';
-import { MdArrowBack } from "react-icons/md";
-import { MdArrowForward } from "react-icons/md";
+import { MdArrowBack, MdArrowForward } from "react-icons/md";
+
 
 // class component
 class SlideShow extends Component {
