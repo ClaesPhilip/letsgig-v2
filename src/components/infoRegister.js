@@ -1,9 +1,11 @@
 import React from "react";
 
 import phone from '../images/phoneImg.svg';
-// import Person from '../images/person.png';
 import AppStore from '../images/appStore.svg';
 import GooglePlay from '../images/googlePlay.svg';
+
+//----HERE IS THE IMAGE OF THE GIRL ON THE YOGA-BALL, placed on column 35----
+// import Person from '../images/person.png';
 
 
 import One from '../images/One.svg'
@@ -13,18 +15,12 @@ import Four from '../images/Four.svg'
 import Five from '../images/Five.svg'
 
 
-
-
 function InfoRegister() {
   return (
 
     <section className="bg-pink-100">
       <div className="container py-20 mx-auto ">
-        {/* <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
-      Testimonials
-    </h2> */}
         <div className="flex flex-wrap">
-
           <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
             <div className="rounded-lg shadow py-2 bg-white">
               <h3 className='text-center py-10 font-bold text-lg '>Sök jobb på 5 minuter!</h3>
