@@ -36,6 +36,7 @@ class SlideShow extends Component {
     const { properties, property } = this.state;
     return (
       <div className="App">
+        <h1 className='text-4xl font-bold text-center text-black mb-8'>Senaste giggen</h1>
 
         <button
           onClick={() => this.prevProperty()}
