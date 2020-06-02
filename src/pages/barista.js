@@ -124,7 +124,7 @@ function FlipCards() {
                   <img alt="google play" src={GooglePlay} width="135" ></img>
                 </a>
                 <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-                  <img alt="App store" src={AppStore} width="150" height="100" className='pl-4'></img>
+                  <img alt="App store" src={AppStore} width="135" height="100" className='ml-0 mt-2 sm:ml-2 sm:mt-0'></img>
                 </a>
               </div>
             </div>
