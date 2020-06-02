@@ -10,7 +10,7 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 // class component
 class SlideShow extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       properties: data.properties,
@@ -19,26 +19,26 @@ class SlideShow extends Component {
   }
 
   nextProperty = () => {
-    const newIndex = this.state.property.index+1;
+    const newIndex = this.state.property.index + 1;
     this.setState({
       property: data.properties[newIndex]
     })
   }
 
   prevProperty = () => {
-    const newIndex = this.state.property.index-1;
+    const newIndex = this.state.property.index - 1;
     this.setState({
       property: data.properties[newIndex]
     })
   }
 
   render() {
-    const {properties, property} = this.state;
+    const { properties, property } = this.state;
     return (
       <div className="App">
 
-        <button 
-          onClick={() => this.prevProperty()} 
+        <button
+          onClick={() => this.prevProperty()}
           disabled={property.index === 0}
         ><MdArrowBack className='text-4xl outline-none border-none' /></button>
         
@@ -49,22 +49,22 @@ class SlideShow extends Component {
         
 
         <div className="page">
-            <section className='section'>
-                {/* <img src={logo} className="App-logo" alt="logo" />
+          <section className='section'>
+            {/* <img src={logo} className="App-logo" alt="logo" />
                 <h1>Image slideshow React tutorial.</h1> */}
-            </section>
+          </section>
 
-            <div className="col">
-              <div className={`cards-slider active-slide-${property.index}`}>
-                <div className="cards-slider-wrapper" style={{
-                  'transform': `translateX(-${property.index*(100/properties.length)}%)`
-                }}>
-                  {
-                    properties.map(property => <Card key={property._id} property={property} />)
-                  }
-                </div>
+          <div className="col">
+            <div className={`cards-slider active-slide-${property.index}`}>
+              <div className="cards-slider-wrapper" style={{
+                'transform': `translateX(-${property.index * (100 / properties.length)}%)`
+              }}>
+                {
+                  properties.map(property => <Card key={property._id} property={property} />)
+                }
               </div>
             </div>
+          </div>
 
         </div>
       </div>

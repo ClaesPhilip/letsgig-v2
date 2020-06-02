@@ -6,8 +6,8 @@ import SEO from "../components/seo";
 
 // IMAGES
 
-import AppStore from '../images/app-store.png';
-import GooglePlay from '../images/google-play.png';
+import AppStore from '../images/appStore.svg';
+import GooglePlay from '../images/googlePlay.svg';
 
 
 // ICONS
@@ -39,21 +39,21 @@ function IndexPage() {
 
       </section>
 
-      <div className='container mx-auto mt-6   flex flex-col sm:flex-row justify-center items-center'>
-        <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg" type="text" placeholder="Stad" />
-        <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg" type="text" placeholder="Kategori" />
-        <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none'>Sök Jobb</a>
+      <div className='container mx-auto mt-6 md:ml-16 ml-0 flex flex-col sm:flex-row justify-center items-center'>
+        <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg hover:shadow-2xl" type="text" placeholder="Stad" />
+        <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg hover:shadow-2xl" type="text" placeholder="Kategori" />
+        <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none hover:shadow-2xl'>Sök Jobb</a>
       </div>
 
-      <div className='w-full h-40 flex flex-row pt-4 bg-pink-100'>
+      <div className='w-full h-40 flex flex-row pt-4 bg-pink-100 '>
         <div className='w-1/3 '>
 
           <div className='flex items-center justify-left lg:ml-20 md:ml-8 invisible md:visible'>
             <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-              <img alt="app store" src={AppStore} width="130" height="130" className='mr-2 mt-10 shadow-lg'></img>
+              <img alt="app store" src={AppStore} width="130" height="130" className='hover:shadow-2xl'></img>
             </a>
             <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
-              <img alt="google play" src={GooglePlay} width="130" height="130" className='mr-2 mt-10 shadow-lg'></img>
+              <img alt="google play" src={GooglePlay} width="130" height="130" className='hover:shadow-2xl'></img>
             </a>
           </div>
         </div>

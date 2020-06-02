@@ -55,6 +55,9 @@
   }
 } */
 
+.visiontext{
+  margin-top: -7rem;
+}
 
 
 
@@ -95,25 +98,6 @@
   background: #fdfafc;
   /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .landingSection {
     width: 100%;
@@ -660,33 +644,27 @@ from, to { border-color: transparent }
 
  .reg1{
   margin-top: -2.5rem; 
-  margin-left: 2rem;
 }
 
 .reg2{
   margin-top: -2.5rem;
-  margin-left: 2rem;
 }
 
 .reg3{
   margin-top: -2.5rem;
-  margin-left: 2rem;
 }
 
 .reg4{
   margin-top: -2.5rem;
-  margin-left: 2rem;
 }
 
 .reg5{
   margin-top: -2.5rem;
-  margin-left: 2rem;
 }
 
-.textinput{
-  
+.yogaGirl{
+  margin-top: -5rem;
 }
-
 
 /* #endregion */
 
