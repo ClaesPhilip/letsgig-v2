@@ -4,23 +4,11 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
-/* .landingSection {
-    width: 1920px;
-    height: 800px;
-    object-fit: cover;
-    z-index: 10;
-} */
-
-
-/* //Börjar om på sidan CSS styling */
-
 
 .landingImage {
   background-image: url(../images/header.svg);
   background-position: center center;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  /* background-size: contain; */
   height: 25rem;
   
 }
