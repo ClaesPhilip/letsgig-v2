@@ -62,7 +62,6 @@ function FlipCards() {
                 <li className='py-6 w-1/3'><a href="/barista">Barista<img className='mx-auto' border="0" alt="W3Schools" src={Android} width="50"></img></a></li>
               </ul>
             </div>
-
           </div>
 
           <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
