@@ -39,10 +39,10 @@ function IndexPage() {
 
       </section>
 
-      <div className='container mx-auto mt-6 md:ml-16 ml-0 flex flex-col sm:flex-row justify-center items-center'>
-        <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg hover:shadow-2xl" type="text" placeholder="Stad" />
-        <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg hover:shadow-2xl" type="text" placeholder="Kategori" />
-        <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none hover:shadow-2xl'>Sök Jobb</a>
+      <div className='container mx-auto mt-6  flex flex-col sm:flex-row justify-center items-center'>
+        <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg hover:shadow-2xl duration-500" type="text" placeholder="Stad" />
+        <input className="md:w-1/5 h-12 rounded-full mt-2 md:mr-6 pl-4 border outline-none shadow-lg hover:shadow-2xl duration-500" type="text" placeholder="Kategori" />
+        <a href='/availableJobs' className='flex md:w-1/12 w-1/5 h-12 mt-2 text-white bg-pink-600 rounded-full text-center items-center justify-center outline-none hover:shadow-2xl duration-500'>Sök Jobb</a>
       </div>
 
       <div className='w-full h-40 flex flex-row pt-4 bg-pink-100 '>
