@@ -1,7 +1,7 @@
 import React from "react";
 
 import phone from '../images/phoneImg.svg';
-import Person from '../images/person.png';
+// import Person from '../images/person.png';
 import AppStore from '../images/appStore.svg';
 import GooglePlay from '../images/googlePlay.svg';
 
@@ -34,10 +34,10 @@ function InfoRegister() {
                 <img alt="Step three" src={Three} className='flex items-start ml-6' /> <li className="text-gray-800 text-base px-6 mb-5 ml-10 reg3">Du bestämmer själv hur mycket du vill jobba och inom vilka områden.</li>
                 <img alt="Step four" src={Four} className='flex items-start ml-6' /> <li className="text-gray-800 text-base px-6 mb-5 ml-10 reg4">Chatta direkt med arbetsgivare i appen.</li>
                 <img alt="Step five" src={Five} className='flex items-start ml-6' /> <li className="text-gray-800 text-base px-6 mb-5 ml-10 pb-6 reg5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
-                <img alt="Girl on yogaball" src={Person} className='float-right yogaGirl' />
+                {/* <img alt="Girl on yogaball" src={Person} className='invisible lg:visible float-right yogaGirl' /> */}
               </ul>
 
-              <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg md:mt-8 lg:mt-0 mb-16 ml-56'>Kom igång</a>
+              <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg md:mt-10 lg:mt-8 mb-16 '>Kom igång</a>
             </div>
           </div>
           <div className="w-full md:w-1/2 mobile:w-full px-2 mb-4">
