@@ -10,7 +10,6 @@ import Barista from '../images/Barista.jpg';
 function FlipCards() {
   return (
 
-
     <section className="bg-pink-100">
       <div className="container mx-auto px-6 py-20">
             <h2 className="text-4xl font-bold text-center text-black mb-8">
@@ -42,7 +41,6 @@ function FlipCards() {
 
           </div>
 
-
           <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
             <div className="bg-white rounded shadow-lg py-2 absolute thefront">
               <div className='sm:h-32 lg:h-auto'>
@@ -66,7 +64,6 @@ function FlipCards() {
             </div>
 
           </div>
-
 
           <div className="w-full md:w-1/3 px-2 mb-4 relative thecard">
             <div className="bg-white rounded shadow-lg py-2 absolute thefront">
