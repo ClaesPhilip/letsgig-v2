@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .rutan {
+  .landingImage {
     height: 10rem;
   }
 }
@@ -148,8 +148,6 @@ from, to { border-color: transparent }
 }
 
 
-
-
 /* FLIP CARDS */
 .flipCards {
   padding-top: 5rem;
@@ -211,9 +209,6 @@ from, to { border-color: transparent }
 .leftButton {
   margin-top: 150px; 
 }
-
-
-
 
 
 
