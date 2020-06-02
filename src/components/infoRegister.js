@@ -41,7 +41,7 @@ function InfoRegister() {
               <h3 className='text-center py-10 font-bold text-lg'>Ladda ned appen</h3>
               <img alt="phone" src={phone} className='mx-auto md:mt-16 lg:mt-0 phoneImg' />
               <div className='flex items-center justify-center mt-6 md:mt-32 lg:mt-6'>
-                <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
+                <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
                   <img alt="google play" src={GooglePlay} width="100" className='pb-24' ></img>
                 </a>
                 <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
