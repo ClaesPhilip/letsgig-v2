@@ -19,7 +19,7 @@ function AboutPage() {
         <div className="container mx-auto px-6 py-20">
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-12 visiontext">
             Vår Vision
-    </h2>
+          </h2>
           <div className="flex flex-wrap">
             <div className="w-full md:w-1/3 px-2 mb-20 pt-6 ">
               <div className="bg-pink-100">
