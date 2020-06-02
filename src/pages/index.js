@@ -19,7 +19,6 @@ import FlipCards from "../components/flipCards";
 import InfoRegister from "../components/infoRegister";
 import SlideShow from '../components/slideShow';
 import Footer from '../components/footer';
-// import Jobs from '../components/availableJobs';
 
 
 function IndexPage() {
