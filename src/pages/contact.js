@@ -3,8 +3,6 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-import Bg_image from "../images/bg-Image.jpg";
-
 function ContactPage() {
   return (
     <Layout>
@@ -12,9 +10,7 @@ function ContactPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Contact"
       />
-      <section className='flex flex-col items-center md:flex-row md:w-full pt-16 ' style={{
-        backgroundImage: `url(${Bg_image})`
-      }} >
+      <section className='flex flex-col items-center md:flex-row md:w-full pt-16 '>
         <form className="md:w-2/3 md:mr-8 xl:w-1/2 lg:ml-16 sm:w-full flex flex-col sm:ml-16 xs:w-64 sm:w-full">
           <p className='mb-8 w-1/2 leading-loose text-3xl font-bold'>
             KONTAKTA OSS!
@@ -66,17 +62,6 @@ function ContactPage() {
             Skicka
           </button>
         </form>
-
-        {/* <div className='w-1/2 h-14'> 
-          <h1 className='flex text-3xl font-bold mb-8 mr-24 leading-loose'>KONTAKT INFORMATION</h1>
-          <h3 className='font-bold'>Address</h3>
-          <p className='font-medium text-gray-600'> Wenner-Gren Center plan 16 <br></br>
-              c/o DNA Labs AB <br></br>
-              Sveavägen 166 <br></br>
-              113 46 Stockholm, Sweden
-          </p>
-          
-        </div> */}
       </section>
     </Layout >
   );
