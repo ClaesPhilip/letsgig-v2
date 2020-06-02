@@ -19,8 +19,6 @@ import FlipCards from "../components/flipCards";
 import InfoRegister from "../components/infoRegister";
 import SlideShow from '../components/slideShow';
 import Footer from '../components/footer';
-// import Jobs from '../components/availableJobs';
-
 
 function IndexPage() {
   return (
@@ -49,11 +47,11 @@ function IndexPage() {
         <div className='w-1/3 '>
 
           <div className='flex items-center justify-left lg:ml-20 md:ml-8 invisible md:visible'>
-            <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-              <img alt="app store" src={AppStore} width="130" height="130" className='hover:shadow-2xl'></img>
-            </a>
             <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
               <img alt="google play" src={GooglePlay} width="130" height="130" className='hover:shadow-2xl'></img>
+            </a>
+            <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
+              <img alt="app store" src={AppStore} width="150" height="130" className='hover:shadow-2xl pl-4'></img>
             </a>
           </div>
         </div>
