@@ -1,21 +1,12 @@
 import React from "react";
 
-// import Layout from "../components/layout";
-// import SEO from "../components/seo";
-
 import Balloon from '../images/balloon.png';
 import VisionPhone from '../images/visionPhone.png';
 import Graduation from '../images/Graduation.png';
 
 function OurVision() {
   return (
-   
-      
-
-// TESTA OCH GÖRA HELA INFO REGISTER MED STYLED COMPONENTS
-
-
-
+    
     <div className="visions">
       
       <h1 className='flex justify-center text-4xl mt-12'>Vår Vision</h1>
