@@ -5,7 +5,7 @@ import AppStore from '../images/appStore.svg';
 import GooglePlay from '../images/googlePlay.svg';
 
 //----HERE IS THE IMAGE OF THE GIRL ON THE YOGA-BALL, placed on column 35----
-// import Person from '../images/person.png';
+// import yogaGirl from '../images/yogaGirl.png';
 
 
 import One from '../images/One.svg'
@@ -30,7 +30,7 @@ function InfoRegister() {
                 <img alt="Step three" src={Three} className='flex items-start ml-6' /> <li className="text-gray-800 text-base px-6 mb-5 ml-10 reg3">Du bestämmer själv hur mycket du vill jobba och inom vilka områden.</li>
                 <img alt="Step four" src={Four} className='flex items-start ml-6' /> <li className="text-gray-800 text-base px-6 mb-5 ml-10 reg4">Chatta direkt med arbetsgivare i appen.</li>
                 <img alt="Step five" src={Five} className='flex items-start ml-6' /> <li className="text-gray-800 text-base px-6 mb-5 ml-10 pb-6 reg5">Tjänsten är givetvis gratis och du binder inte upp dig.</li>
-                {/* <img alt="Girl on yogaball" src={Person} className='invisible lg:visible float-right yogaGirl' /> */}
+                {/* <img alt="Girl on yogaball" src={yogaGirl} className='invisible lg:visible float-right yogaGirl' /> */}
               </ul>
 
               <a href='/' className='flex bg-pink-600 hover:bg-pink-700 duration-500 border-0 text-base text-white p-2 w-32 justify-center mx-auto rounded-lg md:mt-10 lg:mt-8 mb-16 '>Kom igång</a>
@@ -42,10 +42,10 @@ function InfoRegister() {
               <img alt="phone" src={phone} className='mx-auto md:mt-16 lg:mt-0 phoneImg' />
               <div className='flex items-center justify-center mt-6 md:mt-32 lg:mt-6'>
                 <a href="https://play.google.com/store/apps/details?id=com.letsgig.prd&hl=sv">
-                  <img alt="google play" src={GooglePlay} width="100" className='pb-24' ></img>
+                  <img alt="google play" src={GooglePlay} width="125" className='pb-24' ></img>
                 </a>
                 <a href="https://apps.apple.com/se/app/letsgig/id1448023337">
-                  <img alt="google play" src={AppStore} width="100" height="100" className='pb-24'></img>
+                  <img alt="App Store" src={AppStore} width="140" height="100" className='pb-24 pl-4'></img>
                 </a>
               </div>
             </div>
