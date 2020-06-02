@@ -19,7 +19,6 @@
   }
 }
 
-
 .phoneImg {
   width: 14.2rem;
   object-fit: contain;
@@ -37,11 +36,6 @@
   margin-bottom: 50px;
 }
 
-/* @media screen and (max-width: 1000px) {
-  .phoneImg {
-    height: 38.9rem;
-  }
-} */
 
 .visiontext{
   margin-top: -7rem;
@@ -49,7 +43,7 @@
 
 
 
-/* Info Register */
+/*------ Info Register----- */
 .infoRegister {
   display:flex;
   flex-wrap: wrap;
@@ -59,8 +53,6 @@
   width: 50%;
   margin-left: auto;
   background: #fdfafc;
-  /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F0CDCD; */
-  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .regButton {
@@ -84,7 +76,6 @@
   width: 50%;
   margin-right: auto;
   background: #fdfafc;
-  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); */
 } 
 
 .landingSection {
