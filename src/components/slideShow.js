@@ -2,12 +2,10 @@ import React, { Component } from 'react';
 import '../css/style.css';
 import Card from '../components/Card';
 import data from '../data/data';
-// import logo from '../images/assets/logo.svg';
-// import logo from '../assets/logo.svg';
+
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 
-// class component
 class SlideShow extends Component {
 
   constructor(props) {
@@ -51,8 +49,7 @@ class SlideShow extends Component {
 
         <div className="page">
           <section className='section'>
-            {/* <img src={logo} className="App-logo" alt="logo" />
-                <h1>Image slideshow React tutorial.</h1> */}
+            
           </section>
 
           <div className="col">
